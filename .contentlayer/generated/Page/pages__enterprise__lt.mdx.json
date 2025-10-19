@@ -1,0 +1,89 @@
+{
+  "title": "Enterprise – UseMe Labs",
+  "description": "Enterprise klasės UseMe Labs diegimas: SSO, SLA, duomenų suverenitetas ir agentų valdymas.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Enterprise",
+    "headline": "Lietuviška AI platforma su įmonės lygio sauga",
+    "subheadline": "Integracijos, SSO, duomenų politika ir SLA, kuriuos galite audituoti. Agentai, kurie niekada nemoko modelių jūsų duomenimis.",
+    "primaryCta": {
+      "label": "Gauti pasiūlymą",
+      "href": "/pricing"
+    },
+    "secondaryCta": {
+      "label": "Skaityti apie saugumą",
+      "href": "/privacy"
+    }
+  },
+  "sections": [
+    {
+      "id": "integracijos",
+      "eyebrow": "Integracijos",
+      "heading": "Sujunkite UseMe Labs su savo debesimi",
+      "body": "Duomenų jungtys su Microsoft 365, Google Workspace, Atlassian, Slack, Teams, SharePoint, Salesforce ir privačiomis API. Visi kvitai loguojami ir pasirašomi.\n",
+      "bullets": [
+        "Privačios API proxy su IP allowlist ir rate limit",
+        "SCIM vartotojų sinchronizacija ir Just-In-Time provisioning",
+        "Webhookai atgal į ERP, BI ir įvykių eilutes"
+      ]
+    },
+    {
+      "id": "sso",
+      "eyebrow": "Tapatybės valdymas",
+      "heading": "Vieningas prisijungimas ir prieigos sluoksniai",
+      "body": "Palaikome SAML 2.0, OpenID Connect, Azure AD, Okta ir Smart-ID patvirtinimą. Agentų teisės atskiriamos nuo vartotojų teisių.\n",
+      "bullets": [
+        "Granuliuotos rolės (žinių skaitymas, veiksmų vykdymas, priežiūra)",
+        "Patvirtinimai su daugfaktoriniu patvirtinimu kritinėms darbo eigoms",
+        "Deleguota prieiga partneriams su audito žymėmis"
+      ]
+    },
+    {
+      "id": "privatumas",
+      "eyebrow": "Privatumas",
+      "heading": "Duomenys lieka jūsų pasirinktoje jurisdikcijoje",
+      "body": "Modeliai nemokomi jūsų duomenimis. Gali būti diegiama jūsų VPC, naudojant Vercel ar on-premise Kubernetes. Visos bylos šifruotos ramybės ir perdavimo metu.\n",
+      "bullets": [
+        "Tokenų maskavimas ir duomenų klasifikatoriai",
+        "Rakto valdymas su HSM arba Azure Key Vault",
+        "RAG šaltinių valdytojas su versijų istorija"
+      ]
+    },
+    {
+      "id": "governance",
+      "eyebrow": "Governance",
+      "heading": "Kontrolės lenta ir auditoriams paruošti logai",
+      "body": "Administratoriai mato kiekvieną agento žingsnį, pasiektus duomenų šaltinius, naudotus modelius ir generuotus atsakymus. Galite nustatyti politiką, kurią agentai vykdo automatiškai.\n",
+      "bullets": [
+        "Politikos variklis su sąlyginių veiksmų blokais",
+        "Nulinio pasitikėjimo HTTP headeriai ir įvykių srautai",
+        "Pritaikomi SLA ir pagalbos reagavimo laikas (24/7)"
+      ]
+    },
+    {
+      "id": "diegiama",
+      "heading": "Diegimo kelias",
+      "body": "Pirmą savaitę atliekame duomenų ir procesų auditą, antrą – orkestruojame agentus ir integracijas, trečią – paleidžiame pilotą su gyvu palaikymu ir prisijungimo mokymais.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var k=Object.defineProperty;var ne=Object.getOwnPropertyDescriptor;var se=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var E=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),ce=(a,t)=>{for(var s in t)k(a,s,{get:t[s],enumerable:!0})},x=(a,t,s,b)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let u of se(t))!le.call(a,u)&&u!==s&&k(a,u,{get:()=>t[u],enumerable:!(b=ne(t,u))||b.enumerable});return a};var me=(a,t,s)=>(s=a!=null?oe(ue(a)):{},x(t||!a||!a.__esModule?k(s,\"default\",{value:a,enumerable:!0}):s,a)),de=a=>x(k({},\"__esModule\",{value:!0}),a);var D=E((ve,C)=>{C.exports=React});var I=E(_=>{\"use strict\";(function(){function a(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case g:return\"Fragment\";case K:return\"Profiler\";case z:return\"StrictMode\";case B:return\"Suspense\";case Z:return\"SuspenseList\";case Q:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case $:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case X:return(e._context.displayName||\"Context\")+\".Consumer\";case H:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case J:return r=e.displayName||null,r!==null?r:a(e.type)||\"Memo\";case S:r=e._payload,e=e._init;try{return a(e(r))}catch{}}return null}function t(e){return\"\"+e}function s(e){try{t(e);var r=!1}catch{r=!0}if(r){r=console;var i=r.error,n=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return i.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",n),t(e)}}function b(e){if(e===g)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===S)return\"<...>\";try{var r=a(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=R.A;return e===null?null:e.getOwner()}function j(){return Error(\"react-stack-top-frame\")}function Y(e){if(P.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function V(e,r){function i(){O||(O=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}i.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:i,configurable:!0})}function F(){var e=a(this.type);return w[e]||(w[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function W(e,r,i,n,l,c,m,v){return i=c.ref,e={$$typeof:A,type:e,key:r,props:c,_owner:l},(i!==void 0?i:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:F}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:m}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:v}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function G(e,r,i,n,l,c,m,v){var o=r.children;if(o!==void 0)if(n)if(re(o)){for(n=0;n<o.length;n++)T(o[n]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else T(o);if(P.call(r,\"key\")){o=a(e);var d=Object.keys(r).filter(function(ie){return ie!==\"key\"});n=0<d.length?\"{key: someKey, \"+d.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+n]||(d=0<d.length?\"{\"+d.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,n,o,d,o),N[o+n]=!0)}if(o=null,i!==void 0&&(s(i),o=\"\"+i),Y(r)&&(s(r.key),o=\"\"+r.key),\"key\"in r){i={};for(var y in r)y!==\"key\"&&(i[y]=r[y])}else i=r;return o&&V(i,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),W(e,o,c,l,u(),i,m,v)}function T(e){typeof e==\"object\"&&e!==null&&e.$$typeof===A&&e._store&&(e._store.validated=1)}var p=D(),A=Symbol.for(\"react.transitional.element\"),$=Symbol.for(\"react.portal\"),g=Symbol.for(\"react.fragment\"),z=Symbol.for(\"react.strict_mode\"),K=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var X=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),H=Symbol.for(\"react.forward_ref\"),B=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),J=Symbol.for(\"react.memo\"),S=Symbol.for(\"react.lazy\"),Q=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),R=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,P=Object.prototype.hasOwnProperty,re=Array.isArray,h=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var O,w={},ae=p[\"react-stack-bottom-frame\"].bind(p,j)(),te=h(b(j)),N={};_.Fragment=g,_.jsxDEV=function(e,r,i,n,l,c){var m=1e4>R.recentlyCreatedOwnerStacks++;return G(e,r,i,n,l,c,m?Error(\"react-stack-top-frame\"):ae,m?h(b(e)):te)}})()});var L=E((Ee,M)=>{\"use strict\";M.exports=I()});var ke={};ce(ke,{default:()=>pe,frontmatter:()=>fe});var f=me(L()),fe={title:\"Enterprise \\u2013 UseMe Labs\",description:\"Enterprise klas\\u0117s UseMe Labs diegimas: SSO, SLA, duomen\\u0173 suverenitetas ir agent\\u0173 valdymas.\",layout:\"page\",hero:{eyebrow:\"Enterprise\",headline:\"Lietuvi\\u0161ka AI platforma su \\u012Fmon\\u0117s lygio sauga\",subheadline:\"Integracijos, SSO, duomen\\u0173 politika ir SLA, kuriuos galite audituoti. Agentai, kurie niekada nemoko modeli\\u0173 j\\u016Bs\\u0173 duomenimis.\",primaryCta:{label:\"Gauti pasi\\u016Blym\\u0105\",href:\"/pricing\"},secondaryCta:{label:\"Skaityti apie saugum\\u0105\",href:\"/privacy\"}},sections:[{id:\"integracijos\",eyebrow:\"Integracijos\",heading:\"Sujunkite UseMe Labs su savo debesimi\",body:`Duomen\\u0173 jungtys su Microsoft 365, Google Workspace, Atlassian, Slack, Teams, SharePoint, Salesforce ir priva\\u010Diomis API. Visi kvitai loguojami ir pasira\\u0161omi.\n`,bullets:[\"Priva\\u010Dios API proxy su IP allowlist ir rate limit\",\"SCIM vartotoj\\u0173 sinchronizacija ir Just-In-Time provisioning\",\"Webhookai atgal \\u012F ERP, BI ir \\u012Fvyki\\u0173 eilutes\"]},{id:\"sso\",eyebrow:\"Tapatyb\\u0117s valdymas\",heading:\"Vieningas prisijungimas ir prieigos sluoksniai\",body:`Palaikome SAML 2.0, OpenID Connect, Azure AD, Okta ir Smart-ID patvirtinim\\u0105. Agent\\u0173 teis\\u0117s atskiriamos nuo vartotoj\\u0173 teisi\\u0173.\n`,bullets:[\"Granuliuotos rol\\u0117s (\\u017Eini\\u0173 skaitymas, veiksm\\u0173 vykdymas, prie\\u017Ei\\u016Bra)\",\"Patvirtinimai su daugfaktoriniu patvirtinimu kritin\\u0117ms darbo eigoms\",\"Deleguota prieiga partneriams su audito \\u017Eym\\u0117mis\"]},{id:\"privatumas\",eyebrow:\"Privatumas\",heading:\"Duomenys lieka j\\u016Bs\\u0173 pasirinktoje jurisdikcijoje\",body:`Modeliai nemokomi j\\u016Bs\\u0173 duomenimis. Gali b\\u016Bti diegiama j\\u016Bs\\u0173 VPC, naudojant Vercel ar on-premise Kubernetes. Visos bylos \\u0161ifruotos ramyb\\u0117s ir perdavimo metu.\n`,bullets:[\"Token\\u0173 maskavimas ir duomen\\u0173 klasifikatoriai\",\"Rakto valdymas su HSM arba Azure Key Vault\",\"RAG \\u0161altini\\u0173 valdytojas su versij\\u0173 istorija\"]},{id:\"governance\",eyebrow:\"Governance\",heading:\"Kontrol\\u0117s lenta ir auditoriams paruo\\u0161ti logai\",body:`Administratoriai mato kiekvien\\u0105 agento \\u017Eingsn\\u012F, pasiektus duomen\\u0173 \\u0161altinius, naudotus modelius ir generuotus atsakymus. Galite nustatyti politik\\u0105, kuri\\u0105 agentai vykdo automati\\u0161kai.\n`,bullets:[\"Politikos variklis su s\\u0105lygini\\u0173 veiksm\\u0173 blokais\",\"Nulinio pasitik\\u0117jimo HTTP headeriai ir \\u012Fvyki\\u0173 srautai\",\"Pritaikomi SLA ir pagalbos reagavimo laikas (24/7)\"]},{id:\"diegiama\",heading:\"Diegimo kelias\",body:`Pirm\\u0105 savait\\u0119 atliekame duomen\\u0173 ir proces\\u0173 audit\\u0105, antr\\u0105 \\u2013 orkestruojame agentus ir integracijas, tre\\u010Di\\u0105 \\u2013 paleid\\u017Eiame pilot\\u0105 su gyvu palaikymu ir prisijungimo mokymais.\n`}]};function U(a){return(0,f.jsxDEV)(f.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\enterprise\\\\_mdx_bundler_entry_point-35d4f9e7-bf5f-4752-b84c-7b28d5aa89d0.mdx\",lineNumber:1,columnNumber:1},this)}function be(a={}){let{wrapper:t}=a.components||{};return t?(0,f.jsxDEV)(t,Object.assign({},a,{children:(0,f.jsxDEV)(U,a,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\enterprise\\\\_mdx_bundler_entry_point-35d4f9e7-bf5f-4752-b84c-7b28d5aa89d0.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\enterprise\\\\_mdx_bundler_entry_point-35d4f9e7-bf5f-4752-b84c-7b28d5aa89d0.mdx\"},this):U(a)}var pe=be;return de(ke);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/enterprise/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/enterprise/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/enterprise",
+    "contentType": "mdx",
+    "flattenedPath": "pages/enterprise/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "enterprise"
+  ],
+  "slug": "enterprise",
+  "route": "/enterprise",
+  "isDefaultLocale": true
+}

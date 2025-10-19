@@ -1,0 +1,89 @@
+{
+  "title": "Teams – UseMe Labs",
+  "description": "Give every revenue, support, finance and people team the same Lithuanian-first super assistant.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "For teams",
+    "headline": "One assistant for every workflow",
+    "subheadline": "Sales, support, finance and people operations rely on one trustworthy AI that speaks Lithuanian and mirrors your operating model.",
+    "primaryCta": {
+      "label": "Request a demo",
+      "href": "/trial"
+    },
+    "secondaryCta": {
+      "label": "Explore playbooks",
+      "href": "/features"
+    }
+  },
+  "sections": [
+    {
+      "id": "sales",
+      "eyebrow": "Revenue",
+      "heading": "Proposals prepared in minutes",
+      "body": "Agents pull context from your CRM, refresh proposal templates and keep pricing aligned with finance guardrails.\n",
+      "bullets": [
+        "Auto-analysis across HubSpot, Pipedrive or Dynamics 365",
+        "Proposal drafts with Lithuanian commercial language",
+        "Compliance checks for EU public procurement criteria"
+      ]
+    },
+    {
+      "id": "support",
+      "eyebrow": "Customer support",
+      "heading": "24/7 answers without machine translation",
+      "body": "UseMe Labs agents digest emails, social channels and call transcripts, suggest clear responses and escalate high-risk threads.\n",
+      "bullets": [
+        "Tone and sentiment analysis in Lithuanian",
+        "Automatic knowledge-base refresh from resolved tickets",
+        "Integrations with Intercom, Zendesk and Missive"
+      ]
+    },
+    {
+      "id": "finance",
+      "eyebrow": "Finance & legal",
+      "heading": "Reporting, contracts and control in one place",
+      "body": "Automate monthly reports, compare contract versions and flag deviations from internal policies.\n",
+      "bullets": [
+        "Automated P&L commentary and forecasts",
+        "Contract difference summaries with legal annotations",
+        "Audit trail with role-based approvals"
+      ]
+    },
+    {
+      "id": "people",
+      "eyebrow": "People ops",
+      "heading": "Serve employees in their native language",
+      "body": "Turn UseMe Labs into an internal HR assistant answering policy questions, onboarding talent and capturing pulse feedback.\n",
+      "bullets": [
+        "Policy Q&A in Lithuanian and English",
+        "Role-based onboarding plans and checklists",
+        "Pulse survey synthesis with recommended actions"
+      ]
+    },
+    {
+      "id": "playground",
+      "heading": "Playground walkthroughs",
+      "body": "Share your workflows and in a 15 minute session we will showcase sample agents, routing logic and the models we choose for each step.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var g=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var le=Object.getPrototypeOf,ce=Object.prototype.hasOwnProperty;var _=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),ue=(n,t)=>{for(var i in t)g(n,i,{get:t[i],enumerable:!0})},x=(n,t,i,b)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let l of ie(t))!ce.call(n,l)&&l!==i&&g(n,l,{get:()=>t[l],enumerable:!(b=se(t,l))||b.enumerable});return n};var de=(n,t,i)=>(i=n!=null?oe(le(n)):{},x(t||!n||!n.__esModule?g(i,\"default\",{value:n,enumerable:!0}):i,n)),fe=n=>x(g({},\"__esModule\",{value:!0}),n);var L=_((ye,C)=>{C.exports=React});var D=_(w=>{\"use strict\";(function(){function n(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case h:return\"Fragment\";case q:return\"Profiler\";case X:return\"StrictMode\";case Z:return\"Suspense\";case B:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case z:return\"Portal\";case H:return(e.displayName||\"Context\")+\".Provider\";case G:return(e._context.displayName||\"Context\")+\".Consumer\";case K:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return r=e.displayName||null,r!==null?r:n(e.type)||\"Memo\";case k:r=e._payload,e=e._init;try{return n(e(r))}catch{}}return null}function t(e){return\"\"+e}function i(e){try{t(e);var r=!1}catch{r=!0}if(r){r=console;var a=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return a.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),t(e)}}function b(e){if(e===h)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===k)return\"<...>\";try{var r=n(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function l(){var e=A.A;return e===null?null:e.getOwner()}function v(){return Error(\"react-stack-top-frame\")}function Y(e){if(P.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function F(e,r){function a(){S||(S=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}a.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:a,configurable:!0})}function W(){var e=n(this.type);return j[e]||(j[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function $(e,r,a,s,c,u,d,y){return a=u.ref,e={$$typeof:R,type:e,key:r,props:u,_owner:c},(a!==void 0?a:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:W}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:y}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function V(e,r,a,s,c,u,d,y){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)T(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else T(o);if(P.call(r,\"key\")){o=n(e);var f=Object.keys(r).filter(function(ae){return ae!==\"key\"});s=0<f.length?\"{key: someKey, \"+f.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(f=0<f.length?\"{\"+f.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,f,o),N[o+s]=!0)}if(o=null,a!==void 0&&(i(a),o=\"\"+a),Y(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){a={};for(var E in r)E!==\"key\"&&(a[E]=r[E])}else a=r;return o&&F(a,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),$(e,o,u,c,l(),a,d,y)}function T(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var p=L(),R=Symbol.for(\"react.transitional.element\"),z=Symbol.for(\"react.portal\"),h=Symbol.for(\"react.fragment\"),X=Symbol.for(\"react.strict_mode\"),q=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var G=Symbol.for(\"react.consumer\"),H=Symbol.for(\"react.context\"),K=Symbol.for(\"react.forward_ref\"),Z=Symbol.for(\"react.suspense\"),B=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),k=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),A=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,P=Object.prototype.hasOwnProperty,re=Array.isArray,O=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var S,j={},ne=p[\"react-stack-bottom-frame\"].bind(p,v)(),te=O(b(v)),N={};w.Fragment=h,w.jsxDEV=function(e,r,a,s,c,u){var d=1e4>A.recentlyCreatedOwnerStacks++;return V(e,r,a,s,c,u,d?Error(\"react-stack-top-frame\"):ne,d?O(b(e)):te)}})()});var U=_((_e,M)=>{\"use strict\";M.exports=D()});var ge={};ue(ge,{default:()=>pe,frontmatter:()=>me});var m=de(U()),me={title:\"Teams \\u2013 UseMe Labs\",description:\"Give every revenue, support, finance and people team the same Lithuanian-first super assistant.\",layout:\"page\",hero:{eyebrow:\"For teams\",headline:\"One assistant for every workflow\",subheadline:\"Sales, support, finance and people operations rely on one trustworthy AI that speaks Lithuanian and mirrors your operating model.\",primaryCta:{label:\"Request a demo\",href:\"/trial\"},secondaryCta:{label:\"Explore playbooks\",href:\"/features\"}},sections:[{id:\"sales\",eyebrow:\"Revenue\",heading:\"Proposals prepared in minutes\",body:`Agents pull context from your CRM, refresh proposal templates and keep pricing aligned with finance guardrails.\n`,bullets:[\"Auto-analysis across HubSpot, Pipedrive or Dynamics 365\",\"Proposal drafts with Lithuanian commercial language\",\"Compliance checks for EU public procurement criteria\"]},{id:\"support\",eyebrow:\"Customer support\",heading:\"24/7 answers without machine translation\",body:`UseMe Labs agents digest emails, social channels and call transcripts, suggest clear responses and escalate high-risk threads.\n`,bullets:[\"Tone and sentiment analysis in Lithuanian\",\"Automatic knowledge-base refresh from resolved tickets\",\"Integrations with Intercom, Zendesk and Missive\"]},{id:\"finance\",eyebrow:\"Finance & legal\",heading:\"Reporting, contracts and control in one place\",body:`Automate monthly reports, compare contract versions and flag deviations from internal policies.\n`,bullets:[\"Automated P&L commentary and forecasts\",\"Contract difference summaries with legal annotations\",\"Audit trail with role-based approvals\"]},{id:\"people\",eyebrow:\"People ops\",heading:\"Serve employees in their native language\",body:`Turn UseMe Labs into an internal HR assistant answering policy questions, onboarding talent and capturing pulse feedback.\n`,bullets:[\"Policy Q&A in Lithuanian and English\",\"Role-based onboarding plans and checklists\",\"Pulse survey synthesis with recommended actions\"]},{id:\"playground\",heading:\"Playground walkthroughs\",body:`Share your workflows and in a 15 minute session we will showcase sample agents, routing logic and the models we choose for each step.\n`}]};function I(n){return(0,m.jsxDEV)(m.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\teams\\\\_mdx_bundler_entry_point-cbeb9171-3c84-4b9c-a3aa-dd5202e066ff.mdx\",lineNumber:1,columnNumber:1},this)}function be(n={}){let{wrapper:t}=n.components||{};return t?(0,m.jsxDEV)(t,Object.assign({},n,{children:(0,m.jsxDEV)(I,n,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\teams\\\\_mdx_bundler_entry_point-cbeb9171-3c84-4b9c-a3aa-dd5202e066ff.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\teams\\\\_mdx_bundler_entry_point-cbeb9171-3c84-4b9c-a3aa-dd5202e066ff.mdx\"},this):I(n)}var pe=be;return fe(ge);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/teams/en.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/teams/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "pages/teams",
+    "contentType": "mdx",
+    "flattenedPath": "pages/teams/en"
+  },
+  "type": "Page",
+  "locale": "en",
+  "slugSegments": [
+    "teams"
+  ],
+  "slug": "teams",
+  "route": "/en/teams",
+  "isDefaultLocale": false
+}

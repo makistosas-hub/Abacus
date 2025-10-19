@@ -1,0 +1,71 @@
+{
+  "title": "Naudojimo sąlygos – UseMe Labs",
+  "description": "Naudojimo sąlygos, apibrėžiančios UseMe Labs paslaugos teikimą, atsakomybę ir vartotojų pareigas.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Sąlygos",
+    "headline": "Naudojimo sąlygos",
+    "subheadline": "Sutartinės nuostatos, kurios galioja visiems UseMe Labs naudotojams."
+  },
+  "sections": [
+    {
+      "id": "sutartis",
+      "heading": "Sutarties objektas",
+      "body": "Šios sąlygos reglamentuoja UseMe Labs paslaugų naudojimą, įskaitant agentų platformą, API, dokumentų apdorojimą ir techninį palaikymą.\n",
+      "bullets": [
+        "Paslaugą teikiame tik juridiniams asmenims",
+        "Sąlygos įsigalioja aktyvavus paskyrą arba pasirašius sutartį"
+      ]
+    },
+    {
+      "id": "naudojimas",
+      "heading": "Leistinas naudojimas",
+      "body": "Draudžiama naudoti paslaugą neteisėtai veiklai, kenksmingam kodui platinti, nelegaliems duomenims saugoti ar pažeisti intelektinės nuosavybės teises.\n"
+    },
+    {
+      "id": "atsakomybė",
+      "heading": "Atsakomybės ribos",
+      "body": "UseMe Labs neatsako už netiesioginius nuostolius, prarastą pelną ar duomenų praradimą, nebent kitaip numatyta atskiroje sutartyje. Maksimali atsakomybė neviršija per paskutinius 12 mėn. sumokėtų mokesčių.\n"
+    },
+    {
+      "id": "konfidencialumas",
+      "heading": "Konfidencialumas",
+      "body": "Abi šalys įsipareigoja saugoti konfidencialią informaciją ir naudoti ją tik sutartiniams tikslams. Konfidencialumo pareigos galioja 3 metus po sutarties nutraukimo.\n"
+    },
+    {
+      "id": "nutraukimas",
+      "heading": "Nutraukimas",
+      "body": "Klientas gali nutraukti paslaugą bet kada, pateikęs 30 dienų rašytinį pranešimą. Mes galime sustabdyti paslaugą, jei pažeidžiamos sąlygos ar vėluojama atsiskaityti.\n"
+    },
+    {
+      "id": "taikytina-teise",
+      "heading": "Taikytina teisė ir ginčai",
+      "body": "Sąlygos reglamentuojamos Lietuvos Respublikos teise. Ginčai sprendžiami derybomis, nesutarus – Lietuvos teismuose arba arbitraže, jei tai numatyta sutartyje.\n"
+    },
+    {
+      "id": "pakeitimai",
+      "heading": "Sąlygų keitimas",
+      "body": "Apie sąlygų pakeitimus informuosime el. paštu ne vėliau kaip prieš 30 dienų. Toliau naudojant paslaugą laikoma, kad sutinkate su atnaujintomis sąlygomis.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var se=Object.create;var g=Object.defineProperty;var oe=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var _=(r,t)=>()=>(t||r((t={exports:{}}).exports,t),t.exports),ce=(r,t)=>{for(var i in t)g(r,i,{get:t[i],enumerable:!0})},x=(r,t,i,b)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let u of ie(t))!le.call(r,u)&&u!==i&&g(r,u,{get:()=>t[u],enumerable:!(b=oe(t,u))||b.enumerable});return r};var me=(r,t,i)=>(i=r!=null?se(ue(r)):{},x(t||!r||!r.__esModule?g(i,\"default\",{value:r,enumerable:!0}):i,r)),de=r=>x(g({},\"__esModule\",{value:!0}),r);var D=_((ye,C)=>{C.exports=React});var L=_(j=>{\"use strict\";(function(){function r(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case k:return\"Fragment\";case X:return\"Profiler\";case K:return\"StrictMode\";case H:return\"Suspense\";case Z:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case z:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case G:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var a=e.render;return e=e.displayName,e||(e=a.displayName||a.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return a=e.displayName||null,a!==null?a:r(e.type)||\"Memo\";case h:a=e._payload,e=e._init;try{return r(e(a))}catch{}}return null}function t(e){return\"\"+e}function i(e){try{t(e);var a=!1}catch{a=!0}if(a){a=console;var n=a.error,o=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return n.call(a,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",o),t(e)}}function b(e){if(e===k)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===h)return\"<...>\";try{var a=r(e);return a?\"<\"+a+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=A.A;return e===null?null:e.getOwner()}function v(){return Error(\"react-stack-top-frame\")}function I(e){if(S.call(e,\"key\")){var a=Object.getOwnPropertyDescriptor(e,\"key\").get;if(a&&a.isReactWarning)return!1}return e.key!==void 0}function F(e,a){function n(){N||(N=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",a))}n.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:n,configurable:!0})}function W(){var e=r(this.type);return P[e]||(P[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function $(e,a,n,o,l,c,m,y){return n=c.ref,e={$$typeof:R,type:e,key:a,props:c,_owner:l},(n!==void 0?n:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:W}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:m}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:y}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function V(e,a,n,o,l,c,m,y){var s=a.children;if(s!==void 0)if(o)if(ae(s)){for(o=0;o<s.length;o++)T(s[o]);Object.freeze&&Object.freeze(s)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else T(s);if(S.call(a,\"key\")){s=r(e);var d=Object.keys(a).filter(function(ne){return ne!==\"key\"});o=0<d.length?\"{key: someKey, \"+d.join(\": ..., \")+\": ...}\":\"{key: someKey}\",w[s+o]||(d=0<d.length?\"{\"+d.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,o,s,d,s),w[s+o]=!0)}if(s=null,n!==void 0&&(i(n),s=\"\"+n),I(a)&&(i(a.key),s=\"\"+a.key),\"key\"in a){n={};for(var E in a)E!==\"key\"&&(n[E]=a[E])}else n=a;return s&&F(n,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),$(e,s,c,l,u(),n,m,y)}function T(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var p=D(),R=Symbol.for(\"react.transitional.element\"),z=Symbol.for(\"react.portal\"),k=Symbol.for(\"react.fragment\"),K=Symbol.for(\"react.strict_mode\"),X=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var G=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),h=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),A=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,S=Object.prototype.hasOwnProperty,ae=Array.isArray,O=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var N,P={},re=p[\"react-stack-bottom-frame\"].bind(p,v)(),te=O(b(v)),w={};j.Fragment=k,j.jsxDEV=function(e,a,n,o,l,c){var m=1e4>A.recentlyCreatedOwnerStacks++;return V(e,a,n,o,l,c,m?Error(\"react-stack-top-frame\"):re,m?O(b(e)):te)}})()});var U=_((_e,M)=>{\"use strict\";M.exports=L()});var ge={};ce(ge,{default:()=>pe,frontmatter:()=>fe});var f=me(U()),fe={title:\"Naudojimo s\\u0105lygos \\u2013 UseMe Labs\",description:\"Naudojimo s\\u0105lygos, apibr\\u0117\\u017Eian\\u010Dios UseMe Labs paslaugos teikim\\u0105, atsakomyb\\u0119 ir vartotoj\\u0173 pareigas.\",layout:\"page\",hero:{eyebrow:\"S\\u0105lygos\",headline:\"Naudojimo s\\u0105lygos\",subheadline:\"Sutartin\\u0117s nuostatos, kurios galioja visiems UseMe Labs naudotojams.\"},sections:[{id:\"sutartis\",heading:\"Sutarties objektas\",body:`\\u0160ios s\\u0105lygos reglamentuoja UseMe Labs paslaug\\u0173 naudojim\\u0105, \\u012Fskaitant agent\\u0173 platform\\u0105, API, dokument\\u0173 apdorojim\\u0105 ir technin\\u012F palaikym\\u0105.\n`,bullets:[\"Paslaug\\u0105 teikiame tik juridiniams asmenims\",\"S\\u0105lygos \\u012Fsigalioja aktyvavus paskyr\\u0105 arba pasira\\u0161ius sutart\\u012F\"]},{id:\"naudojimas\",heading:\"Leistinas naudojimas\",body:`Draud\\u017Eiama naudoti paslaug\\u0105 neteis\\u0117tai veiklai, kenksmingam kodui platinti, nelegaliems duomenims saugoti ar pa\\u017Eeisti intelektin\\u0117s nuosavyb\\u0117s teises.\n`},{id:\"atsakomyb\\u0117\",heading:\"Atsakomyb\\u0117s ribos\",body:`UseMe Labs neatsako u\\u017E netiesioginius nuostolius, prarast\\u0105 peln\\u0105 ar duomen\\u0173 praradim\\u0105, nebent kitaip numatyta atskiroje sutartyje. Maksimali atsakomyb\\u0117 nevir\\u0161ija per paskutinius 12 m\\u0117n. sumok\\u0117t\\u0173 mokes\\u010Di\\u0173.\n`},{id:\"konfidencialumas\",heading:\"Konfidencialumas\",body:`Abi \\u0161alys \\u012Fsipareigoja saugoti konfidenciali\\u0105 informacij\\u0105 ir naudoti j\\u0105 tik sutartiniams tikslams. Konfidencialumo pareigos galioja 3 metus po sutarties nutraukimo.\n`},{id:\"nutraukimas\",heading:\"Nutraukimas\",body:`Klientas gali nutraukti paslaug\\u0105 bet kada, pateik\\u0119s 30 dien\\u0173 ra\\u0161ytin\\u012F prane\\u0161im\\u0105. Mes galime sustabdyti paslaug\\u0105, jei pa\\u017Eeid\\u017Eiamos s\\u0105lygos ar v\\u0117luojama atsiskaityti.\n`},{id:\"taikytina-teise\",heading:\"Taikytina teis\\u0117 ir gin\\u010Dai\",body:`S\\u0105lygos reglamentuojamos Lietuvos Respublikos teise. Gin\\u010Dai sprend\\u017Eiami derybomis, nesutarus \\u2013 Lietuvos teismuose arba arbitra\\u017Ee, jei tai numatyta sutartyje.\n`},{id:\"pakeitimai\",heading:\"S\\u0105lyg\\u0173 keitimas\",body:`Apie s\\u0105lyg\\u0173 pakeitimus informuosime el. pa\\u0161tu ne v\\u0117liau kaip prie\\u0161 30 dien\\u0173. Toliau naudojant paslaug\\u0105 laikoma, kad sutinkate su atnaujintomis s\\u0105lygomis.\n`}]};function Y(r){return(0,f.jsxDEV)(f.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\terms\\\\_mdx_bundler_entry_point-41a37154-66d9-45a5-a186-ad8280f2fbe6.mdx\",lineNumber:1,columnNumber:1},this)}function be(r={}){let{wrapper:t}=r.components||{};return t?(0,f.jsxDEV)(t,Object.assign({},r,{children:(0,f.jsxDEV)(Y,r,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\terms\\\\_mdx_bundler_entry_point-41a37154-66d9-45a5-a186-ad8280f2fbe6.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\terms\\\\_mdx_bundler_entry_point-41a37154-66d9-45a5-a186-ad8280f2fbe6.mdx\"},this):Y(r)}var pe=be;return de(ge);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/terms/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/terms/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/terms",
+    "contentType": "mdx",
+    "flattenedPath": "pages/terms/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "terms"
+  ],
+  "slug": "terms",
+  "route": "/terms",
+  "isDefaultLocale": true
+}

@@ -1,0 +1,119 @@
+{
+  "title": "UseMe Labs – Lithuanian-first AI platform",
+  "description": "UseMe Labs orchestrates agents, RAG and workflows with Lithuanian-native quality across documents and data.",
+  "layout": "home",
+  "hero": {
+    "eyebrow": "Built for Lithuania",
+    "headline": "A Lithuanian AI super assistant",
+    "subheadline": "Analyse documents, build reports and automate work with agents that speak fluent Lithuanian and understand your sector.",
+    "badges": [
+      "Lithuanian RAG",
+      "Agent orchestration",
+      "EU data residency"
+    ],
+    "primaryCta": {
+      "label": "Start free trial",
+      "href": "/trial"
+    },
+    "secondaryCta": {
+      "label": "Watch demo",
+      "href": "/demo"
+    }
+  },
+  "sections": [
+    {
+      "id": "what",
+      "eyebrow": "Why UseMe?",
+      "heading": "A multi-model control plane tuned for Lithuanian language",
+      "body": "UseMe Labs unifies top-tier LLM providers behind a single assistant, selecting the best model per task while prioritising Lithuanian terminology, regulations and tone.\n",
+      "bullets": [
+        "One interface for the super assistant, specialised agents and workflows",
+        "Automatic model routing based on task, language and compliance requirements",
+        "Knowledge base enriched with Lithuanian legal, public sector and financial context"
+      ]
+    },
+    {
+      "id": "agents",
+      "eyebrow": "Workflows",
+      "heading": "Turn scattered knowledge flows into dependable agents",
+      "body": "Deploy agents that triage inboxes, answer customers, push tasks to JIRA or Asana and deliver briefings to leadership.\n",
+      "bullets": [
+        "Email, CRM, document processing and ticketing agents",
+        "Visual workflow builder with approvals, escalations and guard rails",
+        "Versioned organisational memory with source control"
+      ]
+    },
+    {
+      "id": "capabilities",
+      "eyebrow": "What it delivers",
+      "heading": "From PDFs to voice transcripts",
+      "cards": [
+        {
+          "eyebrow": "Document AI",
+          "title": "Understands PDFs, DOCX and XLSX in Lithuanian",
+          "description": "Extracts key clauses, compares contracts and prepares summaries with full context.",
+          "features": [
+            "Automated insights with Lithuanian legal phrasing",
+            "Difference analysis against your templates"
+          ]
+        },
+        {
+          "eyebrow": "Data analysis",
+          "title": "Converse with Power BI, Excel and databases",
+          "description": "Natural language questions become tables, charts and scheduled reports.",
+          "features": [
+            "Automatic SQL and DAX generation",
+            "Narrative briefings written in Lithuanian"
+          ]
+        },
+        {
+          "eyebrow": "Multimodal agents",
+          "title": "Text, voice and vision working together",
+          "description": "Blend conversations, audio recordings and annotated images into one action plan.",
+          "features": [
+            "Voice summaries and actions from Teams recordings",
+            "Image recognition for manufacturing and field ops"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "eyebrow": "Trust",
+      "heading": "Auditable, explainable and sovereign",
+      "body": "Every interaction is logged, signed and auditable. Data stays in the EU and access is configured to follow Lithuanian DPA guidance.\n",
+      "bullets": [
+        "ISO/IEC 27001-aligned processes with live activity trails",
+        "Hybrid deployment via private VPC or Vercel Edge",
+        "Traceability for RAG sources and agent reasoning"
+      ]
+    },
+    {
+      "id": "cta",
+      "heading": "Let us tailor an AI crew for your team",
+      "body": "Share a few details and within 48 hours you will receive a proposed workflow blueprint, recommended agents and integration notes.\n",
+      "cta": {
+        "label": "Schedule a consult",
+        "href": "/trial"
+      }
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var p=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var le=Object.getPrototypeOf,ce=Object.prototype.hasOwnProperty;var y=(t,a)=>()=>(a||t((a={exports:{}}).exports,a),a.exports),ue=(t,a)=>{for(var i in a)p(t,i,{get:a[i],enumerable:!0})},j=(t,a,i,m)=>{if(a&&typeof a==\"object\"||typeof a==\"function\")for(let l of ie(a))!ce.call(t,l)&&l!==i&&p(t,l,{get:()=>a[l],enumerable:!(m=se(a,l))||m.enumerable});return t};var de=(t,a,i)=>(i=t!=null?oe(le(t)):{},j(a||!t||!t.__esModule?p(i,\"default\",{value:t,enumerable:!0}):i,t)),fe=t=>j(p({},\"__esModule\",{value:!0}),t);var C=y((we,L)=>{L.exports=React});var D=y(_=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case h:return\"Fragment\";case q:return\"Profiler\";case G:return\"StrictMode\";case H:return\"Suspense\";case Q:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case $:return\"Portal\";case B:return(e.displayName||\"Context\")+\".Provider\";case z:return(e._context.displayName||\"Context\")+\".Consumer\";case K:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Z:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case k:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function a(e){return\"\"+e}function i(e){try{a(e);var r=!1}catch{r=!0}if(r){r=console;var n=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return n.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),a(e)}}function m(e){if(e===h)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===k)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function l(){var e=R.A;return e===null?null:e.getOwner()}function v(){return Error(\"react-stack-top-frame\")}function Y(e){if(O.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function F(e,r){function n(){P||(P=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}n.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:n,configurable:!0})}function V(){var e=t(this.type);return x[e]||(x[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function W(e,r,n,s,c,u,d,w){return n=u.ref,e={$$typeof:T,type:e,key:r,props:u,_owner:c},(n!==void 0?n:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:V}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:w}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function X(e,r,n,s,c,u,d,w){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)A(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else A(o);if(O.call(r,\"key\")){o=t(e);var f=Object.keys(r).filter(function(ne){return ne!==\"key\"});s=0<f.length?\"{key: someKey, \"+f.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(f=0<f.length?\"{\"+f.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,f,o),N[o+s]=!0)}if(o=null,n!==void 0&&(i(n),o=\"\"+n),Y(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){n={};for(var E in r)E!==\"key\"&&(n[E]=r[E])}else n=r;return o&&F(n,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),W(e,o,u,c,l(),n,d,w)}function A(e){typeof e==\"object\"&&e!==null&&e.$$typeof===T&&e._store&&(e._store.validated=1)}var g=C(),T=Symbol.for(\"react.transitional.element\"),$=Symbol.for(\"react.portal\"),h=Symbol.for(\"react.fragment\"),G=Symbol.for(\"react.strict_mode\"),q=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var z=Symbol.for(\"react.consumer\"),B=Symbol.for(\"react.context\"),K=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Q=Symbol.for(\"react.suspense_list\"),Z=Symbol.for(\"react.memo\"),k=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),R=g.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,O=Object.prototype.hasOwnProperty,re=Array.isArray,S=console.createTask?console.createTask:function(){return null};g={\"react-stack-bottom-frame\":function(e){return e()}};var P,x={},te=g[\"react-stack-bottom-frame\"].bind(g,v)(),ae=S(m(v)),N={};_.Fragment=h,_.jsxDEV=function(e,r,n,s,c,u){var d=1e4>R.recentlyCreatedOwnerStacks++;return X(e,r,n,s,c,u,d?Error(\"react-stack-top-frame\"):te,d?S(m(e)):ae)}})()});var U=y((ye,I)=>{\"use strict\";I.exports=D()});var pe={};ue(pe,{default:()=>ge,frontmatter:()=>be});var b=de(U()),be={title:\"UseMe Labs \\u2013 Lithuanian-first AI platform\",description:\"UseMe Labs orchestrates agents, RAG and workflows with Lithuanian-native quality across documents and data.\",layout:\"home\",hero:{eyebrow:\"Built for Lithuania\",headline:\"A Lithuanian AI super assistant\",subheadline:\"Analyse documents, build reports and automate work with agents that speak fluent Lithuanian and understand your sector.\",badges:[\"Lithuanian RAG\",\"Agent orchestration\",\"EU data residency\"],primaryCta:{label:\"Start free trial\",href:\"/trial\"},secondaryCta:{label:\"Watch demo\",href:\"/demo\"}},sections:[{id:\"what\",eyebrow:\"Why UseMe?\",heading:\"A multi-model control plane tuned for Lithuanian language\",body:`UseMe Labs unifies top-tier LLM providers behind a single assistant, selecting the best model per task while prioritising Lithuanian terminology, regulations and tone.\n`,bullets:[\"One interface for the super assistant, specialised agents and workflows\",\"Automatic model routing based on task, language and compliance requirements\",\"Knowledge base enriched with Lithuanian legal, public sector and financial context\"]},{id:\"agents\",eyebrow:\"Workflows\",heading:\"Turn scattered knowledge flows into dependable agents\",body:`Deploy agents that triage inboxes, answer customers, push tasks to JIRA or Asana and deliver briefings to leadership.\n`,bullets:[\"Email, CRM, document processing and ticketing agents\",\"Visual workflow builder with approvals, escalations and guard rails\",\"Versioned organisational memory with source control\"]},{id:\"capabilities\",eyebrow:\"What it delivers\",heading:\"From PDFs to voice transcripts\",cards:[{eyebrow:\"Document AI\",title:\"Understands PDFs, DOCX and XLSX in Lithuanian\",description:\"Extracts key clauses, compares contracts and prepares summaries with full context.\",features:[\"Automated insights with Lithuanian legal phrasing\",\"Difference analysis against your templates\"]},{eyebrow:\"Data analysis\",title:\"Converse with Power BI, Excel and databases\",description:\"Natural language questions become tables, charts and scheduled reports.\",features:[\"Automatic SQL and DAX generation\",\"Narrative briefings written in Lithuanian\"]},{eyebrow:\"Multimodal agents\",title:\"Text, voice and vision working together\",description:\"Blend conversations, audio recordings and annotated images into one action plan.\",features:[\"Voice summaries and actions from Teams recordings\",\"Image recognition for manufacturing and field ops\"]}]},{id:\"trust\",eyebrow:\"Trust\",heading:\"Auditable, explainable and sovereign\",body:`Every interaction is logged, signed and auditable. Data stays in the EU and access is configured to follow Lithuanian DPA guidance.\n`,bullets:[\"ISO/IEC 27001-aligned processes with live activity trails\",\"Hybrid deployment via private VPC or Vercel Edge\",\"Traceability for RAG sources and agent reasoning\"]},{id:\"cta\",heading:\"Let us tailor an AI crew for your team\",body:`Share a few details and within 48 hours you will receive a proposed workflow blueprint, recommended agents and integration notes.\n`,cta:{label:\"Schedule a consult\",href:\"/trial\"}}]};function M(t){return(0,b.jsxDEV)(b.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-c2f406ff-1b57-4d97-be79-90e4783aa1cf.mdx\",lineNumber:1,columnNumber:1},this)}function me(t={}){let{wrapper:a}=t.components||{};return a?(0,b.jsxDEV)(a,Object.assign({},t,{children:(0,b.jsxDEV)(M,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-c2f406ff-1b57-4d97-be79-90e4783aa1cf.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-c2f406ff-1b57-4d97-be79-90e4783aa1cf.mdx\"},this):M(t)}var ge=me;return fe(pe);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/home/en.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/home/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "pages/home",
+    "contentType": "mdx",
+    "flattenedPath": "pages/home/en"
+  },
+  "type": "Page",
+  "locale": "en",
+  "slugSegments": [],
+  "slug": "home",
+  "route": "/en",
+  "isDefaultLocale": false
+}

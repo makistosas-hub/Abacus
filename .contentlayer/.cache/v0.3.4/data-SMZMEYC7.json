@@ -1,0 +1,104 @@
+{
+  "cacheItemsMap": {
+    "pages/home/en.mdx": {
+      "document": {
+        "title": "UseMe Labs – Lithuanian-first AI platform",
+        "description": "Experience the ultramodern UseMe Labs co-pilot designed to excel in Lithuanian.",
+        "layout": "home",
+        "hero": {
+          "eyebrow": "Built for Lithuania",
+          "headline": "A Lithuanian AI super assistant",
+          "subheadline": "Agents, document intelligence, and automated workflows in one playful platform.",
+          "primaryCta": {
+            "label": "Start free trial",
+            "href": "/trial"
+          },
+          "secondaryCta": {
+            "label": "Watch demo",
+            "href": "/demo"
+          }
+        },
+        "sections": [
+          {
+            "id": "about",
+            "heading": "What is UseMe Labs?",
+            "body": "UseMe Labs orchestrates SOTA LLMs with native Lithuanian quality to deliver a single super assistant."
+          }
+        ],
+        "body": {
+          "raw": "\nWelcome to the English mirror of UseMe Labs. We'll expand this copy as we iterate on the experience.\n",
+          "code": "var Component=(()=>{var ae=Object.create;var p=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ce=Object.getOwnPropertyNames;var ie=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var g=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),ue=(t,n)=>{for(var c in n)p(t,c,{get:n[c],enumerable:!0})},x=(t,n,c,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of ce(n))!le.call(t,i)&&i!==c&&p(t,i,{get:()=>n[i],enumerable:!(m=se(n,i))||m.enumerable});return t};var fe=(t,n,c)=>(c=t!=null?ae(ie(t)):{},x(n||!t||!t.__esModule?p(c,\"default\",{value:t,enumerable:!0}):c,t)),de=t=>x(p({},\"__esModule\",{value:!0}),t);var L=g((he,C)=>{C.exports=React});var D=g(R=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case _:return\"Fragment\";case q:return\"Profiler\";case X:return\"StrictMode\";case H:return\"Suspense\";case Z:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case z:return\"Portal\";case K:return(e.displayName||\"Context\")+\".Provider\";case G:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case O:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function n(e){return\"\"+e}function c(e){try{n(e);var r=!1}catch{r=!0}if(r){r=console;var o=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return o.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),n(e)}}function m(e){if(e===_)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===O)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function i(){var e=k.A;return e===null?null:e.getOwner()}function v(){return Error(\"react-stack-top-frame\")}function I(e){if(w.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function W(e,r){function o(){j||(j=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}o.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:o,configurable:!0})}function F(){var e=t(this.type);return P[e]||(P[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function $(e,r,o,s,l,u,f,h){return o=u.ref,e={$$typeof:A,type:e,key:r,props:u,_owner:l},(o!==void 0?o:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:F}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:f}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:h}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function V(e,r,o,s,l,u,f,h){var a=r.children;if(a!==void 0)if(s)if(re(a)){for(s=0;s<a.length;s++)y(a[s]);Object.freeze&&Object.freeze(a)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else y(a);if(w.call(r,\"key\")){a=t(e);var d=Object.keys(r).filter(function(oe){return oe!==\"key\"});s=0<d.length?\"{key: someKey, \"+d.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[a+s]||(d=0<d.length?\"{\"+d.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,a,d,a),N[a+s]=!0)}if(a=null,o!==void 0&&(c(o),a=\"\"+o),I(r)&&(c(r.key),a=\"\"+r.key),\"key\"in r){o={};for(var T in r)T!==\"key\"&&(o[T]=r[T])}else o=r;return a&&W(o,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),$(e,a,u,l,i(),o,f,h)}function y(e){typeof e==\"object\"&&e!==null&&e.$$typeof===A&&e._store&&(e._store.validated=1)}var b=L(),A=Symbol.for(\"react.transitional.element\"),z=Symbol.for(\"react.portal\"),_=Symbol.for(\"react.fragment\"),X=Symbol.for(\"react.strict_mode\"),q=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var G=Symbol.for(\"react.consumer\"),K=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),O=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),k=b.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,w=Object.prototype.hasOwnProperty,re=Array.isArray,S=console.createTask?console.createTask:function(){return null};b={\"react-stack-bottom-frame\":function(e){return e()}};var j,P={},te=b[\"react-stack-bottom-frame\"].bind(b,v)(),ne=S(m(v)),N={};R.Fragment=_,R.jsxDEV=function(e,r,o,s,l,u){var f=1e4>k.recentlyCreatedOwnerStacks++;return V(e,r,o,s,l,u,f?Error(\"react-stack-top-frame\"):te,f?S(m(e)):ne)}})()});var U=g((ge,M)=>{\"use strict\";M.exports=D()});var Ee={};ue(Ee,{default:()=>pe,frontmatter:()=>me});var E=fe(U()),me={title:\"UseMe Labs \\u2013 Lithuanian-first AI platform\",description:\"Experience the ultramodern UseMe Labs co-pilot designed to excel in Lithuanian.\",layout:\"home\",hero:{eyebrow:\"Built for Lithuania\",headline:\"A Lithuanian AI super assistant\",subheadline:\"Agents, document intelligence, and automated workflows in one playful platform.\",primaryCta:{label:\"Start free trial\",href:\"/trial\"},secondaryCta:{label:\"Watch demo\",href:\"/demo\"}},sections:[{id:\"about\",heading:\"What is UseMe Labs?\",body:\"UseMe Labs orchestrates SOTA LLMs with native Lithuanian quality to deliver a single super assistant.\"}]};function Y(t){let n=Object.assign({p:\"p\"},t.components);return(0,E.jsxDEV)(n.p,{children:\"Welcome to the English mirror of UseMe Labs. We'll expand this copy as we iterate on the experience.\"},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-c69ee7b8-e815-4235-84f7-d68dde5d3c25.mdx\",lineNumber:21,columnNumber:1},this)}function be(t={}){let{wrapper:n}=t.components||{};return n?(0,E.jsxDEV)(n,Object.assign({},t,{children:(0,E.jsxDEV)(Y,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-c69ee7b8-e815-4235-84f7-d68dde5d3c25.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-c69ee7b8-e815-4235-84f7-d68dde5d3c25.mdx\"},this):Y(t)}var pe=be;return de(Ee);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+        },
+        "_id": "pages/home/en.mdx",
+        "_raw": {
+          "sourceFilePath": "pages/home/en.mdx",
+          "sourceFileName": "en.mdx",
+          "sourceFileDir": "pages/home",
+          "contentType": "mdx",
+          "flattenedPath": "pages/home/en"
+        },
+        "type": "Page",
+        "locale": "en",
+        "slugSegments": [
+          "home"
+        ],
+        "slug": "home",
+        "route": "/en",
+        "isDefaultLocale": false
+      },
+      "documentHash": "1760881931084",
+      "hasWarnings": false,
+      "documentTypeName": "Page"
+    },
+    "pages/home/lt.mdx": {
+      "document": {
+        "title": "UseMe Labs – Lietuvos AI platforma",
+        "description": "Patirk ultramodernią UseMe Labs superasistento platformą, kuri natūraliai kalba lietuviškai.",
+        "layout": "home",
+        "hero": {
+          "eyebrow": "LT pirma",
+          "headline": "AI superasistentas, kalbantis lietuviškai",
+          "subheadline": "Agentai, dokumentų analizė ir pažangios darbo eigos iš vienos platformos.",
+          "primaryCta": {
+            "label": "Išbandyti nemokamai",
+            "href": "/trial"
+          },
+          "secondaryCta": {
+            "label": "Pamatyti demo",
+            "href": "/demo"
+          }
+        },
+        "sections": [
+          {
+            "id": "about",
+            "heading": "Kas yra UseMe Labs?",
+            "body": "UseMe Labs jungia aukščiausio lygio LLM modelius ir Lietuvos rinkos patirtį į vieną superasistentą."
+          }
+        ],
+        "body": {
+          "raw": "\nWelcome to the Lithuanian-first UseMe Labs experience. Čia bus pilnas lietuviškas turinys, kurį papildysime vėlesniuose etapuose.\n",
+          "code": "var Component=(()=>{var oe=Object.create;var p=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var ce=Object.getPrototypeOf,ue=Object.prototype.hasOwnProperty;var v=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),le=(t,n)=>{for(var i in n)p(t,i,{get:n[i],enumerable:!0})},x=(t,n,i,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of ie(n))!ue.call(t,c)&&c!==i&&p(t,c,{get:()=>n[c],enumerable:!(m=se(n,c))||m.enumerable});return t};var fe=(t,n,i)=>(i=t!=null?oe(ce(t)):{},x(n||!t||!t.__esModule?p(i,\"default\",{value:t,enumerable:!0}):i,t)),be=t=>x(p({},\"__esModule\",{value:!0}),t);var L=v((Te,C)=>{C.exports=React});var D=v(g=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case _:return\"Fragment\";case G:return\"Profiler\";case X:return\"StrictMode\";case H:return\"Suspense\";case Z:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case z:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case K:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case A:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function n(e){return\"\"+e}function i(e){try{n(e);var r=!1}catch{r=!0}if(r){r=console;var a=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return a.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),n(e)}}function m(e){if(e===_)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===A)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function c(){var e=O.A;return e===null?null:e.getOwner()}function y(){return Error(\"react-stack-top-frame\")}function Y(e){if(j.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function F(e,r){function a(){S||(S=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}a.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:a,configurable:!0})}function W(){var e=t(this.type);return w[e]||(w[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function $(e,r,a,s,u,l,f,T){return a=l.ref,e={$$typeof:h,type:e,key:r,props:l,_owner:u},(a!==void 0?a:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:W}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:f}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:T}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function V(e,r,a,s,u,l,f,T){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)R(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else R(o);if(j.call(r,\"key\")){o=t(e);var b=Object.keys(r).filter(function(ae){return ae!==\"key\"});s=0<b.length?\"{key: someKey, \"+b.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(b=0<b.length?\"{\"+b.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,b,o),N[o+s]=!0)}if(o=null,a!==void 0&&(i(a),o=\"\"+a),Y(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){a={};for(var k in r)k!==\"key\"&&(a[k]=r[k])}else a=r;return o&&F(a,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),$(e,o,l,u,c(),a,f,T)}function R(e){typeof e==\"object\"&&e!==null&&e.$$typeof===h&&e._store&&(e._store.validated=1)}var d=L(),h=Symbol.for(\"react.transitional.element\"),z=Symbol.for(\"react.portal\"),_=Symbol.for(\"react.fragment\"),X=Symbol.for(\"react.strict_mode\"),G=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var K=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),A=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),O=d.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,j=Object.prototype.hasOwnProperty,re=Array.isArray,P=console.createTask?console.createTask:function(){return null};d={\"react-stack-bottom-frame\":function(e){return e()}};var S,w={},te=d[\"react-stack-bottom-frame\"].bind(d,y)(),ne=P(m(y)),N={};g.Fragment=_,g.jsxDEV=function(e,r,a,s,u,l){var f=1e4>O.recentlyCreatedOwnerStacks++;return V(e,r,a,s,u,l,f?Error(\"react-stack-top-frame\"):te,f?P(m(e)):ne)}})()});var U=v((ve,M)=>{\"use strict\";M.exports=D()});var Ee={};le(Ee,{default:()=>pe,frontmatter:()=>me});var E=fe(U()),me={title:\"UseMe Labs \\u2013 Lietuvos AI platforma\",description:\"Patirk ultramoderni\\u0105 UseMe Labs superasistento platform\\u0105, kuri nat\\u016Braliai kalba lietuvi\\u0161kai.\",layout:\"home\",hero:{eyebrow:\"LT pirma\",headline:\"AI superasistentas, kalbantis lietuvi\\u0161kai\",subheadline:\"Agentai, dokument\\u0173 analiz\\u0117 ir pa\\u017Eangios darbo eigos i\\u0161 vienos platformos.\",primaryCta:{label:\"I\\u0161bandyti nemokamai\",href:\"/trial\"},secondaryCta:{label:\"Pamatyti demo\",href:\"/demo\"}},sections:[{id:\"about\",heading:\"Kas yra UseMe Labs?\",body:\"UseMe Labs jungia auk\\u0161\\u010Diausio lygio LLM modelius ir Lietuvos rinkos patirt\\u012F \\u012F vien\\u0105 superasistent\\u0105.\"}]};function I(t){let n=Object.assign({p:\"p\"},t.components);return(0,E.jsxDEV)(n.p,{children:\"Welcome to the Lithuanian-first UseMe Labs experience. \\u010Cia bus pilnas lietuvi\\u0161kas turinys, kur\\u012F papildysime v\\u0117lesniuose etapuose.\"},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-7f0b3a99-68a5-4cbb-9e9e-861f4d4e26a5.mdx\",lineNumber:21,columnNumber:1},this)}function de(t={}){let{wrapper:n}=t.components||{};return n?(0,E.jsxDEV)(n,Object.assign({},t,{children:(0,E.jsxDEV)(I,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-7f0b3a99-68a5-4cbb-9e9e-861f4d4e26a5.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\home\\\\_mdx_bundler_entry_point-7f0b3a99-68a5-4cbb-9e9e-861f4d4e26a5.mdx\"},this):I(t)}var pe=de;return be(Ee);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+        },
+        "_id": "pages/home/lt.mdx",
+        "_raw": {
+          "sourceFilePath": "pages/home/lt.mdx",
+          "sourceFileName": "lt.mdx",
+          "sourceFileDir": "pages/home",
+          "contentType": "mdx",
+          "flattenedPath": "pages/home/lt"
+        },
+        "type": "Page",
+        "locale": "lt",
+        "slugSegments": [
+          "home"
+        ],
+        "slug": "home",
+        "route": "/",
+        "isDefaultLocale": true
+      },
+      "documentHash": "1760881926003",
+      "hasWarnings": false,
+      "documentTypeName": "Page"
+    }
+  }
+}

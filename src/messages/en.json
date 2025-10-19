@@ -1,0 +1,20 @@
+﻿{
+  "nav": {
+    "home": "Home",
+    "teams": "Teams",
+    "enterprise": "Enterprise",
+    "features": "Features",
+    "research": "Research",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "blog": "Blog",
+    "status": "Status",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "cta": {
+    "requestTrial": "Request a trial",
+    "contact": "Contact",
+    "newsletter": "Subscribe"
+  }
+}

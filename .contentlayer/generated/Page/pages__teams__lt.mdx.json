@@ -1,0 +1,89 @@
+{
+  "title": "Komandoms – UseMe Labs",
+  "description": "Vienas UseMe Labs superasistentas, aptarnaujantis pardavimų, palaikymo, finansų ir personalo komandas lietuvių kalba.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Komandoms",
+    "headline": "Vienas superasistentas visoms komandoms",
+    "subheadline": "Pardavimai, palaikymas, finansai ir personalas gauna tą patį patikimą AI, kuris kalba lietuviškai ir supranta jūsų procesų niuansus.",
+    "primaryCta": {
+      "label": "Paprašyti demo",
+      "href": "/trial"
+    },
+    "secondaryCta": {
+      "label": "Procesų bibliotekos peržiūra",
+      "href": "/features"
+    }
+  },
+  "sections": [
+    {
+      "id": "pardavimai",
+      "eyebrow": "Pardavimų komandos",
+      "heading": "Asistentas, kuris paruošia pasiūlymus per minutes",
+      "body": "Agentai automatiškai ištraukia informaciją iš CRM, atnaujina pasiūlymų šablonus ir suderina kainodarą su finansų gairėmis.\n",
+      "bullets": [
+        "Autosanalizė iš HubSpot, Pipedrive ar Dynamics 365",
+        "Pasiūlymų generavimas su lietuviška terminija ir KPI",
+        "ES viešųjų pirkimų kriterijų atitikimo patikra"
+      ]
+    },
+    {
+      "id": "palaikymas",
+      "eyebrow": "Klientų palaikymas",
+      "heading": "24/7 atsakymai be mašininio vertimo",
+      "body": "UseMe Labs agentai analizuoja klientų laiškus, socialinius kanalus ir skambučius, pateikia aiškias rekomendacijas ir eskaluoja jautrias temas.\n",
+      "bullets": [
+        "Tone & sentiment analizė lietuvių kalba",
+        "Žinių bazės atnaujinimas iš sprendimų įrašų",
+        "Integracijos su Intercom, Zendesk ir Missive"
+      ]
+    },
+    {
+      "id": "finansai",
+      "eyebrow": "Finansai ir teisė",
+      "heading": "Ataskaitos, sutartys ir kontrolė vienoje vietoje",
+      "body": "Agentai padeda surinkti mėnesio ataskaitas, palygina sutarčių versijas ir informuoja apie neatitikimus su vidaus politika.\n",
+      "bullets": [
+        "Automatiniai P&L komentarai ir prognozės",
+        "Sutarties skirtumų komentarai su teisininko žymomis",
+        "Audit trail su prieigos lygiais ir tvirtinimais"
+      ]
+    },
+    {
+      "id": "personalas",
+      "eyebrow": "Žmogiškieji ištekliai",
+      "heading": "Pagalba darbuotojams jų kalba",
+      "body": "Naudokite UseMe Labs kaip vidinį HR asistentą: atsakymai apie atostogas, mokymus, darbo teisę ir adaptacijos programą.\n",
+      "bullets": [
+        "Politikų Q&A lietuvių ir anglų kalbomis",
+        "Automatiniai įvadiniai planai pagal rolę",
+        "Pulsiniai darbuotojų apklausų apibendrinimai"
+      ]
+    },
+    {
+      "id": "vizualizacija",
+      "heading": "Playground demonstracijos",
+      "body": "Pasidalinkite savo procesais ir 15 minučių demonstracijoje parodysime, kaip atrodys jūsų agentai, darbo eigos ir kokius modelius naudotume skirtingoms komandų užduotims.\n"
+    }
+  ],
+  "body": {
+    "raw": "\r\n",
+    "code": "var Component=(()=>{var ne=Object.create;var k=Object.defineProperty;var oe=Object.getOwnPropertyDescriptor;var se=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var E=(r,i)=>()=>(i||r((i={exports:{}}).exports,i),i.exports),ce=(r,i)=>{for(var s in i)k(r,s,{get:i[s],enumerable:!0})},x=(r,i,s,f)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let u of se(i))!le.call(r,u)&&u!==s&&k(r,u,{get:()=>i[u],enumerable:!(f=oe(i,u))||f.enumerable});return r};var me=(r,i,s)=>(s=r!=null?ne(ue(r)):{},x(i||!r||!r.__esModule?k(s,\"default\",{value:r,enumerable:!0}):s,r)),de=r=>x(k({},\"__esModule\",{value:!0}),r);var D=E((ye,C)=>{C.exports=React});var M=E(_=>{\"use strict\";(function(){function r(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case g:return\"Fragment\";case X:return\"Profiler\";case K:return\"StrictMode\";case Z:return\"Suspense\";case B:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case $:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case G:return(e._context.displayName||\"Context\")+\".Consumer\";case H:var a=e.render;return e=e.displayName,e||(e=a.displayName||a.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return a=e.displayName||null,a!==null?a:r(e.type)||\"Memo\";case A:a=e._payload,e=e._init;try{return r(e(a))}catch{}}return null}function i(e){return\"\"+e}function s(e){try{i(e);var a=!1}catch{a=!0}if(a){a=console;var t=a.error,o=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return t.call(a,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",o),i(e)}}function f(e){if(e===g)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===A)return\"<...>\";try{var a=r(e);return a?\"<\"+a+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=P.A;return e===null?null:e.getOwner()}function j(){return Error(\"react-stack-top-frame\")}function Y(e){if(h.call(e,\"key\")){var a=Object.getOwnPropertyDescriptor(e,\"key\").get;if(a&&a.isReactWarning)return!1}return e.key!==void 0}function F(e,a){function t(){w||(w=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",a))}t.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:t,configurable:!0})}function z(){var e=r(this.type);return S[e]||(S[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function V(e,a,t,o,l,c,m,y){return t=c.ref,e={$$typeof:R,type:e,key:a,props:c,_owner:l},(t!==void 0?t:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:z}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:m}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:y}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function W(e,a,t,o,l,c,m,y){var n=a.children;if(n!==void 0)if(o)if(ae(n)){for(o=0;o<n.length;o++)T(n[o]);Object.freeze&&Object.freeze(n)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else T(n);if(h.call(a,\"key\")){n=r(e);var d=Object.keys(a).filter(function(te){return te!==\"key\"});o=0<d.length?\"{key: someKey, \"+d.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[n+o]||(d=0<d.length?\"{\"+d.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,o,n,d,n),N[n+o]=!0)}if(n=null,t!==void 0&&(s(t),n=\"\"+t),Y(a)&&(s(a.key),n=\"\"+a.key),\"key\"in a){t={};for(var v in a)v!==\"key\"&&(t[v]=a[v])}else t=a;return n&&F(t,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),V(e,n,c,l,u(),t,m,y)}function T(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var p=D(),R=Symbol.for(\"react.transitional.element\"),$=Symbol.for(\"react.portal\"),g=Symbol.for(\"react.fragment\"),K=Symbol.for(\"react.strict_mode\"),X=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var G=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),H=Symbol.for(\"react.forward_ref\"),Z=Symbol.for(\"react.suspense\"),B=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),A=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),P=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,h=Object.prototype.hasOwnProperty,ae=Array.isArray,O=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var w,S={},re=p[\"react-stack-bottom-frame\"].bind(p,j)(),ie=O(f(j)),N={};_.Fragment=g,_.jsxDEV=function(e,a,t,o,l,c){var m=1e4>P.recentlyCreatedOwnerStacks++;return W(e,a,t,o,l,c,m?Error(\"react-stack-top-frame\"):re,m?O(f(e)):ie)}})()});var I=E((Ee,U)=>{\"use strict\";U.exports=M()});var ke={};ce(ke,{default:()=>pe,frontmatter:()=>be});var b=me(I()),be={title:\"Komandoms \\u2013 UseMe Labs\",description:\"Vienas UseMe Labs superasistentas, aptarnaujantis pardavim\\u0173, palaikymo, finans\\u0173 ir personalo komandas lietuvi\\u0173 kalba.\",layout:\"page\",hero:{eyebrow:\"Komandoms\",headline:\"Vienas superasistentas visoms komandoms\",subheadline:\"Pardavimai, palaikymas, finansai ir personalas gauna t\\u0105 pat\\u012F patikim\\u0105 AI, kuris kalba lietuvi\\u0161kai ir supranta j\\u016Bs\\u0173 proces\\u0173 niuansus.\",primaryCta:{label:\"Papra\\u0161yti demo\",href:\"/trial\"},secondaryCta:{label:\"Proces\\u0173 bibliotekos per\\u017Ei\\u016Bra\",href:\"/features\"}},sections:[{id:\"pardavimai\",eyebrow:\"Pardavim\\u0173 komandos\",heading:\"Asistentas, kuris paruo\\u0161ia pasi\\u016Blymus per minutes\",body:`Agentai automati\\u0161kai i\\u0161traukia informacij\\u0105 i\\u0161 CRM, atnaujina pasi\\u016Blym\\u0173 \\u0161ablonus ir suderina kainodar\\u0105 su finans\\u0173 gair\\u0117mis.\n`,bullets:[\"Autosanaliz\\u0117 i\\u0161 HubSpot, Pipedrive ar Dynamics 365\",\"Pasi\\u016Blym\\u0173 generavimas su lietuvi\\u0161ka terminija ir KPI\",\"ES vie\\u0161\\u0173j\\u0173 pirkim\\u0173 kriterij\\u0173 atitikimo patikra\"]},{id:\"palaikymas\",eyebrow:\"Klient\\u0173 palaikymas\",heading:\"24/7 atsakymai be ma\\u0161ininio vertimo\",body:`UseMe Labs agentai analizuoja klient\\u0173 lai\\u0161kus, socialinius kanalus ir skambu\\u010Dius, pateikia ai\\u0161kias rekomendacijas ir eskaluoja jautrias temas.\n`,bullets:[\"Tone & sentiment analiz\\u0117 lietuvi\\u0173 kalba\",\"\\u017Dini\\u0173 baz\\u0117s atnaujinimas i\\u0161 sprendim\\u0173 \\u012Fra\\u0161\\u0173\",\"Integracijos su Intercom, Zendesk ir Missive\"]},{id:\"finansai\",eyebrow:\"Finansai ir teis\\u0117\",heading:\"Ataskaitos, sutartys ir kontrol\\u0117 vienoje vietoje\",body:`Agentai padeda surinkti m\\u0117nesio ataskaitas, palygina sutar\\u010Di\\u0173 versijas ir informuoja apie neatitikimus su vidaus politika.\n`,bullets:[\"Automatiniai P&L komentarai ir prognoz\\u0117s\",\"Sutarties skirtum\\u0173 komentarai su teisininko \\u017Eymomis\",\"Audit trail su prieigos lygiais ir tvirtinimais\"]},{id:\"personalas\",eyebrow:\"\\u017Dmogi\\u0161kieji i\\u0161tekliai\",heading:\"Pagalba darbuotojams j\\u0173 kalba\",body:`Naudokite UseMe Labs kaip vidin\\u012F HR asistent\\u0105: atsakymai apie atostogas, mokymus, darbo teis\\u0119 ir adaptacijos program\\u0105.\n`,bullets:[\"Politik\\u0173 Q&A lietuvi\\u0173 ir angl\\u0173 kalbomis\",\"Automatiniai \\u012Fvadiniai planai pagal rol\\u0119\",\"Pulsiniai darbuotoj\\u0173 apklaus\\u0173 apibendrinimai\"]},{id:\"vizualizacija\",heading:\"Playground demonstracijos\",body:`Pasidalinkite savo procesais ir 15 minu\\u010Di\\u0173 demonstracijoje parodysime, kaip atrodys j\\u016Bs\\u0173 agentai, darbo eigos ir kokius modelius naudotume skirtingoms komand\\u0173 u\\u017Eduotims.\n`}]};function L(r){return(0,b.jsxDEV)(b.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\teams\\\\_mdx_bundler_entry_point-efebbe39-d0d1-466a-a8aa-64c8ec7bdb2d.mdx\",lineNumber:1,columnNumber:1},this)}function fe(r={}){let{wrapper:i}=r.components||{};return i?(0,b.jsxDEV)(i,Object.assign({},r,{children:(0,b.jsxDEV)(L,r,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\teams\\\\_mdx_bundler_entry_point-efebbe39-d0d1-466a-a8aa-64c8ec7bdb2d.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\teams\\\\_mdx_bundler_entry_point-efebbe39-d0d1-466a-a8aa-64c8ec7bdb2d.mdx\"},this):L(r)}var pe=fe;return de(ke);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/teams/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/teams/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/teams",
+    "contentType": "mdx",
+    "flattenedPath": "pages/teams/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "teams"
+  ],
+  "slug": "teams",
+  "route": "/teams",
+  "isDefaultLocale": true
+}

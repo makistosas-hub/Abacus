@@ -1,0 +1,71 @@
+{
+  "title": "Tyrimai – UseMe Labs",
+  "description": "LT Eval – atvira lietuvių kalbos užduočių ir metrikų sistema, padedanti įvertinti modeliavimo kokybę.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Tyrimai",
+    "headline": "LT Eval: lietuvių kalbos AI matavimų etalonas",
+    "subheadline": "Kas mėnesį atnaujiname atvirus vertinimus ir dalijamės metrikomis, kurios rodo tikrą lietuviškos kalbos kokybę."
+  },
+  "sections": [
+    {
+      "id": "metodika",
+      "eyebrow": "Metodika",
+      "heading": "Kaip vertiname modelius",
+      "body": "LT Eval apima daugiau nei 200 užduočių iš viešojo sektoriaus, finansų, gamybos ir kasdienio vartotojo scenarijų. Vertiname gramatiką, terminiją, logiką ir kontekstą.\n",
+      "bullets": [
+        "Žmogaus anotatorių ir automatinio vertinimo kombinacija",
+        "Lietuviška terminija su sinonimais ir žargonais",
+        "Daugiapusių dialogų ir ilgų kontekstų testai"
+      ]
+    },
+    {
+      "id": "duomenys",
+      "eyebrow": "Duomenų rinkiniai",
+      "heading": "Kokius šaltinius naudojame",
+      "body": "Duomenys sukaupti iš viešų teisės aktų, savivaldybių dokumentų, finansinių ataskaitų, produktų katalogų ir rankiniu būdu sukurtų vartotojų scenarijų.\n",
+      "bullets": [
+        "Automatinis PII pašalinimas ir semantinis deidentifikavimas",
+        "Versijų istorija su šaltinio nuorodomis",
+        "Viešai prieinami pavyzdžiai GitHub repozitorijoje"
+      ]
+    },
+    {
+      "id": "skaidrumas",
+      "eyebrow": "Skaidrumas",
+      "heading": "Atviri rezultatai ir auditai",
+      "body": "Publikuojame kiekvieno modelio rezultatus, komentarų sklaidą ir žmogiško vertinimo pastabas. Klientams pateikiame ir individualius vertinimus pagal jų duomenis.\n",
+      "bullets": [
+        "Modelių leaderboard su aiškiomis kategorijomis",
+        "Eilių grafikai ir konfidencijos intervalai",
+        "Reproducuojami skriptai su Docker aplinka"
+      ]
+    },
+    {
+      "id": "roadmap",
+      "eyebrow": "Kryptis",
+      "heading": "Kas laukia toliau",
+      "body": "Artimiausiuose leidimuose papildysime garso, vaizdo ir dialektų vertinimą, taip pat pristatysime atskirus metrikos rinkinius viešiesiems pirkimams ir medicinai.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var ne=Object.create;var p=Object.defineProperty;var oe=Object.getOwnPropertyDescriptor;var se=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var g=(a,i)=>()=>(i||a((i={exports:{}}).exports,i),i.exports),ce=(a,i)=>{for(var s in i)p(a,s,{get:i[s],enumerable:!0})},x=(a,i,s,b)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let u of se(i))!le.call(a,u)&&u!==s&&p(a,u,{get:()=>i[u],enumerable:!(b=oe(i,u))||b.enumerable});return a};var me=(a,i,s)=>(s=a!=null?ne(ue(a)):{},x(i||!a||!a.__esModule?p(s,\"default\",{value:a,enumerable:!0}):s,a)),de=a=>x(p({},\"__esModule\",{value:!0}),a);var D=g((Ee,C)=>{C.exports=React});var L=g(y=>{\"use strict\";(function(){function a(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case v:return\"Fragment\";case X:return\"Profiler\";case K:return\"StrictMode\";case B:return\"Suspense\";case Z:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case $:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case G:return(e._context.displayName||\"Context\")+\".Consumer\";case H:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return r=e.displayName||null,r!==null?r:a(e.type)||\"Memo\";case h:r=e._payload,e=e._init;try{return a(e(r))}catch{}}return null}function i(e){return\"\"+e}function s(e){try{i(e);var r=!1}catch{r=!0}if(r){r=console;var t=r.error,o=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return t.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",o),i(e)}}function b(e){if(e===v)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===h)return\"<...>\";try{var r=a(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=A.A;return e===null?null:e.getOwner()}function T(){return Error(\"react-stack-top-frame\")}function U(e){if(O.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function F(e,r){function t(){S||(S=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}t.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:t,configurable:!0})}function V(){var e=a(this.type);return P[e]||(P[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function z(e,r,t,o,l,c,m,E){return t=c.ref,e={$$typeof:R,type:e,key:r,props:c,_owner:l},(t!==void 0?t:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:V}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:m}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:E}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function W(e,r,t,o,l,c,m,E){var n=r.children;if(n!==void 0)if(o)if(re(n)){for(o=0;o<n.length;o++)j(n[o]);Object.freeze&&Object.freeze(n)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else j(n);if(O.call(r,\"key\")){n=a(e);var d=Object.keys(r).filter(function(te){return te!==\"key\"});o=0<d.length?\"{key: someKey, \"+d.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[n+o]||(d=0<d.length?\"{\"+d.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,o,n,d,n),N[n+o]=!0)}if(n=null,t!==void 0&&(s(t),n=\"\"+t),U(r)&&(s(r.key),n=\"\"+r.key),\"key\"in r){t={};for(var _ in r)_!==\"key\"&&(t[_]=r[_])}else t=r;return n&&F(t,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),z(e,n,c,l,u(),t,m,E)}function j(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var k=D(),R=Symbol.for(\"react.transitional.element\"),$=Symbol.for(\"react.portal\"),v=Symbol.for(\"react.fragment\"),K=Symbol.for(\"react.strict_mode\"),X=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var G=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),H=Symbol.for(\"react.forward_ref\"),B=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),h=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),A=k.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,O=Object.prototype.hasOwnProperty,re=Array.isArray,w=console.createTask?console.createTask:function(){return null};k={\"react-stack-bottom-frame\":function(e){return e()}};var S,P={},ae=k[\"react-stack-bottom-frame\"].bind(k,T)(),ie=w(b(T)),N={};y.Fragment=v,y.jsxDEV=function(e,r,t,o,l,c){var m=1e4>A.recentlyCreatedOwnerStacks++;return W(e,r,t,o,l,c,m?Error(\"react-stack-top-frame\"):ae,m?w(b(e)):ie)}})()});var M=g((ge,I)=>{\"use strict\";I.exports=L()});var pe={};ce(pe,{default:()=>ke,frontmatter:()=>fe});var f=me(M()),fe={title:\"Tyrimai \\u2013 UseMe Labs\",description:\"LT Eval \\u2013 atvira lietuvi\\u0173 kalbos u\\u017Eduo\\u010Di\\u0173 ir metrik\\u0173 sistema, padedanti \\u012Fvertinti modeliavimo kokyb\\u0119.\",layout:\"page\",hero:{eyebrow:\"Tyrimai\",headline:\"LT Eval: lietuvi\\u0173 kalbos AI matavim\\u0173 etalonas\",subheadline:\"Kas m\\u0117nes\\u012F atnaujiname atvirus vertinimus ir dalijam\\u0117s metrikomis, kurios rodo tikr\\u0105 lietuvi\\u0161kos kalbos kokyb\\u0119.\"},sections:[{id:\"metodika\",eyebrow:\"Metodika\",heading:\"Kaip vertiname modelius\",body:`LT Eval apima daugiau nei 200 u\\u017Eduo\\u010Di\\u0173 i\\u0161 vie\\u0161ojo sektoriaus, finans\\u0173, gamybos ir kasdienio vartotojo scenarij\\u0173. Vertiname gramatik\\u0105, terminij\\u0105, logik\\u0105 ir kontekst\\u0105.\n`,bullets:[\"\\u017Dmogaus anotatori\\u0173 ir automatinio vertinimo kombinacija\",\"Lietuvi\\u0161ka terminija su sinonimais ir \\u017Eargonais\",\"Daugiapusi\\u0173 dialog\\u0173 ir ilg\\u0173 kontekst\\u0173 testai\"]},{id:\"duomenys\",eyebrow:\"Duomen\\u0173 rinkiniai\",heading:\"Kokius \\u0161altinius naudojame\",body:`Duomenys sukaupti i\\u0161 vie\\u0161\\u0173 teis\\u0117s akt\\u0173, savivaldybi\\u0173 dokument\\u0173, finansini\\u0173 ataskait\\u0173, produkt\\u0173 katalog\\u0173 ir rankiniu b\\u016Bdu sukurt\\u0173 vartotoj\\u0173 scenarij\\u0173.\n`,bullets:[\"Automatinis PII pa\\u0161alinimas ir semantinis deidentifikavimas\",\"Versij\\u0173 istorija su \\u0161altinio nuorodomis\",\"Vie\\u0161ai prieinami pavyzd\\u017Eiai GitHub repozitorijoje\"]},{id:\"skaidrumas\",eyebrow:\"Skaidrumas\",heading:\"Atviri rezultatai ir auditai\",body:`Publikuojame kiekvieno modelio rezultatus, komentaru\\u0328 sklaid\\u0105 ir \\u017Emogi\\u0161ko vertinimo pastabas. Klientams pateikiame ir individualius vertinimus pagal j\\u0173 duomenis.\n`,bullets:[\"Modeli\\u0173 leaderboard su ai\\u0161kiomis kategorijomis\",\"Eili\\u0173 grafikai ir konfidencijos intervalai\",\"Reproducuojami skriptai su Docker aplinka\"]},{id:\"roadmap\",eyebrow:\"Kryptis\",heading:\"Kas laukia toliau\",body:`Artimiausiuose leidimuose papildysime garso, vaizdo ir dialekt\\u0173 vertinim\\u0105, taip pat pristatysime atskirus metrikos rinkinius vie\\u0161iesiems pirkimams ir medicinai.\n`}]};function Y(a){return(0,f.jsxDEV)(f.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\research\\\\_mdx_bundler_entry_point-13bf6635-fbd0-4dee-897f-5c448ea03e04.mdx\",lineNumber:1,columnNumber:1},this)}function be(a={}){let{wrapper:i}=a.components||{};return i?(0,f.jsxDEV)(i,Object.assign({},a,{children:(0,f.jsxDEV)(Y,a,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\research\\\\_mdx_bundler_entry_point-13bf6635-fbd0-4dee-897f-5c448ea03e04.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\research\\\\_mdx_bundler_entry_point-13bf6635-fbd0-4dee-897f-5c448ea03e04.mdx\"},this):Y(a)}var ke=be;return de(pe);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/research/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/research/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/research",
+    "contentType": "mdx",
+    "flattenedPath": "pages/research/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "research"
+  ],
+  "slug": "research",
+  "route": "/research",
+  "isDefaultLocale": true
+}

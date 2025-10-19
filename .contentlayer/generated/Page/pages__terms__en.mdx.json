@@ -1,0 +1,71 @@
+{
+  "title": "Terms of Use – UseMe Labs",
+  "description": "Terms governing UseMe Labs services, responsibilities and customer obligations.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Terms",
+    "headline": "Terms of Use",
+    "subheadline": "Contractual provisions that apply to all UseMe Labs users."
+  },
+  "sections": [
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "body": "These terms govern access to UseMe Labs services, including the agent platform, APIs, document processing and support.\n",
+      "bullets": [
+        "Service is provided to legal entities only",
+        "Terms take effect once the account is activated or an agreement is signed"
+      ]
+    },
+    {
+      "id": "acceptable-use",
+      "heading": "Acceptable use",
+      "body": "You may not use the service for unlawful activities, distribute malicious code, store illegal content or infringe intellectual property rights.\n"
+    },
+    {
+      "id": "liability",
+      "heading": "Liability",
+      "body": "UseMe Labs is not liable for indirect damages, lost profits or data loss unless otherwise agreed in writing. Total liability is capped at fees paid during the previous 12 months.\n"
+    },
+    {
+      "id": "confidentiality",
+      "heading": "Confidentiality",
+      "body": "Both parties will protect confidential information and use it solely for contractual purposes. Obligations remain for three years after termination.\n"
+    },
+    {
+      "id": "termination",
+      "heading": "Termination",
+      "body": "You may terminate the service at any time with 30 days written notice. We may suspend the service for material breaches or overdue payments.\n"
+    },
+    {
+      "id": "law",
+      "heading": "Governing law",
+      "body": "These terms are governed by Lithuanian law. Disputes are resolved through negotiation and, if unresolved, in Lithuanian courts or arbitration when agreed.\n"
+    },
+    {
+      "id": "changes",
+      "heading": "Changes",
+      "body": "We will notify you by email at least 30 days before changes take effect. Continued use means you accept the updated terms.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var g=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var ce=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var _=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),ue=(t,n)=>{for(var i in n)g(t,i,{get:n[i],enumerable:!0})},x=(t,n,i,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of ie(n))!le.call(t,c)&&c!==i&&g(t,c,{get:()=>n[c],enumerable:!(m=se(n,c))||m.enumerable});return t};var fe=(t,n,i)=>(i=t!=null?oe(ce(t)):{},x(n||!t||!t.__esModule?g(i,\"default\",{value:t,enumerable:!0}):i,t)),de=t=>x(g({},\"__esModule\",{value:!0}),t);var U=_((ye,C)=>{C.exports=React});var D=_(v=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case h:return\"Fragment\";case G:return\"Profiler\";case X:return\"StrictMode\";case H:return\"Suspense\";case Z:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case z:return\"Portal\";case K:return(e.displayName||\"Context\")+\".Provider\";case q:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case k:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function n(e){return\"\"+e}function i(e){try{n(e);var r=!1}catch{r=!0}if(r){r=console;var a=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return a.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),n(e)}}function m(e){if(e===h)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===k)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function c(){var e=O.A;return e===null?null:e.getOwner()}function T(){return Error(\"react-stack-top-frame\")}function I(e){if(A.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function F(e,r){function a(){P||(P=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}a.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:a,configurable:!0})}function W(){var e=t(this.type);return j[e]||(j[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function $(e,r,a,s,l,u,f,y){return a=u.ref,e={$$typeof:w,type:e,key:r,props:u,_owner:l},(a!==void 0?a:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:W}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:f}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:y}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function V(e,r,a,s,l,u,f,y){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)R(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else R(o);if(A.call(r,\"key\")){o=t(e);var d=Object.keys(r).filter(function(ae){return ae!==\"key\"});s=0<d.length?\"{key: someKey, \"+d.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(d=0<d.length?\"{\"+d.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,d,o),N[o+s]=!0)}if(o=null,a!==void 0&&(i(a),o=\"\"+a),I(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){a={};for(var E in r)E!==\"key\"&&(a[E]=r[E])}else a=r;return o&&F(a,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),$(e,o,u,l,c(),a,f,y)}function R(e){typeof e==\"object\"&&e!==null&&e.$$typeof===w&&e._store&&(e._store.validated=1)}var p=U(),w=Symbol.for(\"react.transitional.element\"),z=Symbol.for(\"react.portal\"),h=Symbol.for(\"react.fragment\"),X=Symbol.for(\"react.strict_mode\"),G=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var q=Symbol.for(\"react.consumer\"),K=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),k=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),O=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,A=Object.prototype.hasOwnProperty,re=Array.isArray,S=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var P,j={},te=p[\"react-stack-bottom-frame\"].bind(p,T)(),ne=S(m(T)),N={};v.Fragment=h,v.jsxDEV=function(e,r,a,s,l,u){var f=1e4>O.recentlyCreatedOwnerStacks++;return V(e,r,a,s,l,u,f?Error(\"react-stack-top-frame\"):te,f?S(m(e)):ne)}})()});var M=_((_e,L)=>{\"use strict\";L.exports=D()});var ge={};ue(ge,{default:()=>pe,frontmatter:()=>be});var b=fe(M()),be={title:\"Terms of Use \\u2013 UseMe Labs\",description:\"Terms governing UseMe Labs services, responsibilities and customer obligations.\",layout:\"page\",hero:{eyebrow:\"Terms\",headline:\"Terms of Use\",subheadline:\"Contractual provisions that apply to all UseMe Labs users.\"},sections:[{id:\"scope\",heading:\"Scope\",body:`These terms govern access to UseMe Labs services, including the agent platform, APIs, document processing and support.\n`,bullets:[\"Service is provided to legal entities only\",\"Terms take effect once the account is activated or an agreement is signed\"]},{id:\"acceptable-use\",heading:\"Acceptable use\",body:`You may not use the service for unlawful activities, distribute malicious code, store illegal content or infringe intellectual property rights.\n`},{id:\"liability\",heading:\"Liability\",body:`UseMe Labs is not liable for indirect damages, lost profits or data loss unless otherwise agreed in writing. Total liability is capped at fees paid during the previous 12 months.\n`},{id:\"confidentiality\",heading:\"Confidentiality\",body:`Both parties will protect confidential information and use it solely for contractual purposes. Obligations remain for three years after termination.\n`},{id:\"termination\",heading:\"Termination\",body:`You may terminate the service at any time with 30 days written notice. We may suspend the service for material breaches or overdue payments.\n`},{id:\"law\",heading:\"Governing law\",body:`These terms are governed by Lithuanian law. Disputes are resolved through negotiation and, if unresolved, in Lithuanian courts or arbitration when agreed.\n`},{id:\"changes\",heading:\"Changes\",body:`We will notify you by email at least 30 days before changes take effect. Continued use means you accept the updated terms.\n`}]};function Y(t){return(0,b.jsxDEV)(b.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\terms\\\\_mdx_bundler_entry_point-5ac739fd-abaf-4c6f-b04d-1123bb523aa2.mdx\",lineNumber:1,columnNumber:1},this)}function me(t={}){let{wrapper:n}=t.components||{};return n?(0,b.jsxDEV)(n,Object.assign({},t,{children:(0,b.jsxDEV)(Y,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\terms\\\\_mdx_bundler_entry_point-5ac739fd-abaf-4c6f-b04d-1123bb523aa2.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\terms\\\\_mdx_bundler_entry_point-5ac739fd-abaf-4c6f-b04d-1123bb523aa2.mdx\"},this):Y(t)}var pe=me;return de(ge);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/terms/en.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/terms/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "pages/terms",
+    "contentType": "mdx",
+    "flattenedPath": "pages/terms/en"
+  },
+  "type": "Page",
+  "locale": "en",
+  "slugSegments": [
+    "terms"
+  ],
+  "slug": "terms",
+  "route": "/en/terms",
+  "isDefaultLocale": false
+}

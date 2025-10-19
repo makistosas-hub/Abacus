@@ -1,0 +1,66 @@
+{
+  "title": "DUK – UseMe Labs",
+  "description": "Dažniausiai užduodami klausimai apie UseMe Labs duomenų tvarkymą, kainodarą, palaikymą ir integracijas.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "DUK",
+    "headline": "Dažniausiai užduodami klausimai",
+    "subheadline": "Trumpi atsakymai į svarbiausius klausimus apie UseMe Labs."
+  },
+  "sections": [
+    {
+      "id": "duomenys",
+      "heading": "Kur laikomi mūsų duomenys?",
+      "body": "Pagal numatytuosius nustatymus duomenys saugomi ES (Frankfurtas arba Varšuva). Galime diegti jūsų pasirinktame VPC arba naudoti hibridinį modelį, kai jautrūs duomenys niekada nepalieka jūsų tinklo.\n",
+      "bullets": [
+        "Failai šifruojami AES-256 ramybės ir TLS 1.3 perdavimo metu",
+        "Prieigos žurnalų eksportas į jūsų SIEM sistemą"
+      ]
+    },
+    {
+      "id": "mokymai",
+      "heading": "Ar modeliai mokomi mūsų duomenimis?",
+      "body": "Ne. Jūsų duomenys naudojami tik inferencijai. Modeliai apsaugoti serverio pusėje ir neturi teisės įrašyti laikinos informacijos į nuolatines saugyklas.\n"
+    },
+    {
+      "id": "limitai",
+      "heading": "Kokie yra naudojimo limitai?",
+      "body": "Starto planui suteikiame 500 dokumentų ir 10 darbo eigų paleidimų per mėnesį. Augimo ir Enterprise planai turi pasirenkamus limitus su automatinio mastelio nustatymais.\n"
+    },
+    {
+      "id": "integracijos",
+      "heading": "Kiek laiko trunka integracijos?",
+      "body": "Standartines integracijas su Microsoft 365 ar Google Workspace įdiegiame per 3–5 darbo dienas. Individualios API integracijos priklauso nuo jūsų infrastruktūros sudėtingumo.\n"
+    },
+    {
+      "id": "palaikymas",
+      "heading": "Kokį palaikymą gauname?",
+      "body": "Starto planas apima el. pašto palaikymą darbo dienomis. Augimo planas prideda Slack kanalo prieigą ir reguliarius sėkmės pokalbius, o Enterprise turi 24/7 budėjimą ir dedikuotą CSM.\n"
+    },
+    {
+      "id": "nutraukimas",
+      "heading": "Kaip nutraukti paslaugą?",
+      "body": "Prenumeratą galite nutraukti administratoriaus skydelyje. Pateiksime galutinę sąskaitą ir suteiksime 30 dienų duomenų eksportui.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var ie=Object.create;var k=Object.defineProperty;var oe=Object.getOwnPropertyDescriptor;var se=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var y=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),ce=(a,t)=>{for(var s in t)k(a,s,{get:t[s],enumerable:!0})},x=(a,t,s,b)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let u of se(t))!le.call(a,u)&&u!==s&&k(a,u,{get:()=>t[u],enumerable:!(b=oe(t,u))||b.enumerable});return a};var de=(a,t,s)=>(s=a!=null?ie(ue(a)):{},x(t||!a||!a.__esModule?k(s,\"default\",{value:a,enumerable:!0}):s,a)),me=a=>x(k({},\"__esModule\",{value:!0}),a);var D=y((Ee,C)=>{C.exports=React});var M=y(T=>{\"use strict\";(function(){function a(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case g:return\"Fragment\";case z:return\"Profiler\";case q:return\"StrictMode\";case H:return\"Suspense\";case Z:return\"SuspenseList\";case Q:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case $:return\"Portal\";case X:return(e.displayName||\"Context\")+\".Provider\";case G:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case J:return r=e.displayName||null,r!==null?r:a(e.type)||\"Memo\";case S:r=e._payload,e=e._init;try{return a(e(r))}catch{}}return null}function t(e){return\"\"+e}function s(e){try{t(e);var r=!1}catch{r=!0}if(r){r=console;var n=r.error,o=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return n.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",o),t(e)}}function b(e){if(e===g)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===S)return\"<...>\";try{var r=a(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=A.A;return e===null?null:e.getOwner()}function j(){return Error(\"react-stack-top-frame\")}function Y(e){if(h.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function F(e,r){function n(){P||(P=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}n.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:n,configurable:!0})}function V(){var e=a(this.type);return w[e]||(w[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function W(e,r,n,o,l,c,d,E){return n=c.ref,e={$$typeof:R,type:e,key:r,props:c,_owner:l},(n!==void 0?n:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:V}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:E}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function K(e,r,n,o,l,c,d,E){var i=r.children;if(i!==void 0)if(o)if(re(i)){for(o=0;o<i.length;o++)v(i[o]);Object.freeze&&Object.freeze(i)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else v(i);if(h.call(r,\"key\")){i=a(e);var m=Object.keys(r).filter(function(ne){return ne!==\"key\"});o=0<m.length?\"{key: someKey, \"+m.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[i+o]||(m=0<m.length?\"{\"+m.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,o,i,m,i),N[i+o]=!0)}if(i=null,n!==void 0&&(s(n),i=\"\"+n),Y(r)&&(s(r.key),i=\"\"+r.key),\"key\"in r){n={};for(var _ in r)_!==\"key\"&&(n[_]=r[_])}else n=r;return i&&F(n,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),W(e,i,c,l,u(),n,d,E)}function v(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var p=D(),R=Symbol.for(\"react.transitional.element\"),$=Symbol.for(\"react.portal\"),g=Symbol.for(\"react.fragment\"),q=Symbol.for(\"react.strict_mode\"),z=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var G=Symbol.for(\"react.consumer\"),X=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),J=Symbol.for(\"react.memo\"),S=Symbol.for(\"react.lazy\"),Q=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),A=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,h=Object.prototype.hasOwnProperty,re=Array.isArray,O=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var P,w={},ae=p[\"react-stack-bottom-frame\"].bind(p,j)(),te=O(b(j)),N={};T.Fragment=g,T.jsxDEV=function(e,r,n,o,l,c){var d=1e4>A.recentlyCreatedOwnerStacks++;return K(e,r,n,o,l,c,d?Error(\"react-stack-top-frame\"):ae,d?O(b(e)):te)}})()});var I=y((ye,U)=>{\"use strict\";U.exports=M()});var ke={};ce(ke,{default:()=>pe,frontmatter:()=>fe});var f=de(I()),fe={title:\"DUK \\u2013 UseMe Labs\",description:\"Da\\u017Eniausiai u\\u017Eduodami klausimai apie UseMe Labs duomen\\u0173 tvarkym\\u0105, kainodar\\u0105, palaikym\\u0105 ir integracijas.\",layout:\"page\",hero:{eyebrow:\"DUK\",headline:\"Da\\u017Eniausiai u\\u017Eduodami klausimai\",subheadline:\"Trumpi atsakymai \\u012F svarbiausius klausimus apie UseMe Labs.\"},sections:[{id:\"duomenys\",heading:\"Kur laikomi m\\u016Bs\\u0173 duomenys?\",body:`Pagal numatytuosius nustatymus duomenys saugomi ES (Frankfurtas arba Var\\u0161uva). Galime diegti j\\u016Bs\\u0173 pasirinktame VPC arba naudoti hibridin\\u012F model\\u012F, kai jautr\\u016Bs duomenys niekada nepalieka j\\u016Bs\\u0173 tinklo.\n`,bullets:[\"Failai \\u0161ifruojami AES-256 ramyb\\u0117s ir TLS 1.3 perdavimo metu\",\"Prieigos \\u017Eurnal\\u0173 eksportas \\u012F j\\u016Bs\\u0173 SIEM sistem\\u0105\"]},{id:\"mokymai\",heading:\"Ar modeliai mokomi m\\u016Bs\\u0173 duomenimis?\",body:`Ne. J\\u016Bs\\u0173 duomenys naudojami tik inferencijai. Modeliai apsaugoti serverio pus\\u0117je ir neturi teis\\u0117s \\u012Fra\\u0161yti laikinos informacijos \\u012F nuolatines saugyklas.\n`},{id:\"limitai\",heading:\"Kokie yra naudojimo limitai?\",body:`Starto planui suteikiame 500 dokument\\u0173 ir 10 darbo eig\\u0173 paleidim\\u0173 per m\\u0117nes\\u012F. Augimo ir Enterprise planai turi pasirenkamus limitus su automatinio mastelio nustatymais.\n`},{id:\"integracijos\",heading:\"Kiek laiko trunka integracijos?\",body:`Standartines integracijas su Microsoft 365 ar Google Workspace \\u012Fdiegiame per 3\\u20135 darbo dienas. Individualios API integracijos priklauso nuo j\\u016Bs\\u0173 infrastrukt\\u016Bros sud\\u0117tingumo.\n`},{id:\"palaikymas\",heading:\"Kok\\u012F palaikym\\u0105 gauname?\",body:`Starto planas apima el. pa\\u0161to palaikym\\u0105 darbo dienomis. Augimo planas prideda Slack kanalo prieig\\u0105 ir reguliarius s\\u0117km\\u0117s pokalbius, o Enterprise turi 24/7 bud\\u0117jim\\u0105 ir dedikuot\\u0105 CSM.\n`},{id:\"nutraukimas\",heading:\"Kaip nutraukti paslaug\\u0105?\",body:`Prenumerat\\u0105 galite nutraukti administratoriaus skydelyje. Pateiksime galutin\\u0119 s\\u0105skait\\u0105 ir suteiksime 30 dien\\u0173 duomen\\u0173 eksportui.\n`}]};function L(a){return(0,f.jsxDEV)(f.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\faq\\\\_mdx_bundler_entry_point-9ceb86c9-3436-490d-a1f0-3b77e4dde8f8.mdx\",lineNumber:1,columnNumber:1},this)}function be(a={}){let{wrapper:t}=a.components||{};return t?(0,f.jsxDEV)(t,Object.assign({},a,{children:(0,f.jsxDEV)(L,a,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\faq\\\\_mdx_bundler_entry_point-9ceb86c9-3436-490d-a1f0-3b77e4dde8f8.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\faq\\\\_mdx_bundler_entry_point-9ceb86c9-3436-490d-a1f0-3b77e4dde8f8.mdx\"},this):L(a)}var pe=be;return me(ke);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/faq/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/faq/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/faq",
+    "contentType": "mdx",
+    "flattenedPath": "pages/faq/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "faq"
+  ],
+  "slug": "faq",
+  "route": "/faq",
+  "isDefaultLocale": true
+}

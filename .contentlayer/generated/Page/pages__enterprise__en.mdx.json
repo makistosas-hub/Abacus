@@ -1,0 +1,89 @@
+{
+  "title": "Enterprise – UseMe Labs",
+  "description": "Enterprise-grade deployment of UseMe Labs with integrations, SSO, governance and dedicated SLAs.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Enterprise",
+    "headline": "Lithuanian AI with enterprise guarantees",
+    "subheadline": "Integrations, SSO, governance and SLAs you can audit. Agents that never fine-tune on your data.",
+    "primaryCta": {
+      "label": "Request proposal",
+      "href": "/pricing"
+    },
+    "secondaryCta": {
+      "label": "Review security posture",
+      "href": "/privacy"
+    }
+  },
+  "sections": [
+    {
+      "id": "integrations",
+      "eyebrow": "Integrations",
+      "heading": "Plug UseMe Labs into your stack",
+      "body": "Connect Microsoft 365, Google Workspace, Atlassian, Slack, Teams, SharePoint, Salesforce and private APIs. Every call is logged and signed.\n",
+      "bullets": [
+        "Private API proxies with IP allowlists and rate limits",
+        "SCIM user sync and Just-In-Time provisioning",
+        "Webhooks back to ERP, BI and event streams"
+      ]
+    },
+    {
+      "id": "identity",
+      "eyebrow": "Identity",
+      "heading": "Unified sign-on and granular access",
+      "body": "Support for SAML 2.0, OpenID Connect, Azure AD, Okta and Smart-ID verification. Agent permissions are separated from user privileges.\n",
+      "bullets": [
+        "Role-based scopes (knowledge, execution, supervision)",
+        "Step-up MFA for sensitive workflow approvals",
+        "Delegated partner access with full audit trail"
+      ]
+    },
+    {
+      "id": "privacy",
+      "eyebrow": "Privacy",
+      "heading": "Data remains in your chosen jurisdiction",
+      "body": "Models are never trained on your data. Deploy within your VPC, via Vercel or on-premise Kubernetes. All files are encrypted at rest and in transit.\n",
+      "bullets": [
+        "Token masking and data classifiers",
+        "Key management via HSM or Azure Key Vault",
+        "RAG source manager with version history"
+      ]
+    },
+    {
+      "id": "governance",
+      "eyebrow": "Governance",
+      "heading": "Control center and auditor-ready logs",
+      "body": "Admins see every agent step, accessed datasets, selected models and delivered answers. Define policy blocks that agents execute automatically.\n",
+      "bullets": [
+        "Policy engine with conditional action blocks",
+        "Zero-trust headers and event forwarding",
+        "Custom SLAs and 24/7 support availability"
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "Delivery timeline",
+      "body": "Week one: process and data discovery. Week two: agent orchestration and integrations. Week three: production pilot with enablement and success metrics.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var g=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var ce=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var _=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),ue=(t,n)=>{for(var i in n)g(t,i,{get:n[i],enumerable:!0})},C=(t,n,i,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of ie(n))!le.call(t,c)&&c!==i&&g(t,c,{get:()=>n[c],enumerable:!(m=se(n,c))||m.enumerable});return t};var de=(t,n,i)=>(i=t!=null?oe(ce(t)):{},C(n||!t||!t.__esModule?g(i,\"default\",{value:t,enumerable:!0}):i,t)),fe=t=>C(g({},\"__esModule\",{value:!0}),t);var D=_((ve,x)=>{x.exports=React});var I=_(h=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case y:return\"Fragment\";case K:return\"Profiler\";case G:return\"StrictMode\";case H:return\"Suspense\";case Z:return\"SuspenseList\";case Q:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case z:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case X:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case J:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case T:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function n(e){return\"\"+e}function i(e){try{n(e);var r=!1}catch{r=!0}if(r){r=console;var a=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return a.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),n(e)}}function m(e){if(e===y)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===T)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function c(){var e=R.A;return e===null?null:e.getOwner()}function w(){return Error(\"react-stack-top-frame\")}function Y(e){if(S.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function W(e,r){function a(){P||(P=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}a.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:a,configurable:!0})}function F(){var e=t(this.type);return j[e]||(j[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function V(e,r,a,s,l,u,d,v){return a=u.ref,e={$$typeof:k,type:e,key:r,props:u,_owner:l},(a!==void 0?a:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:F}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:v}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function $(e,r,a,s,l,u,d,v){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)A(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else A(o);if(S.call(r,\"key\")){o=t(e);var f=Object.keys(r).filter(function(ae){return ae!==\"key\"});s=0<f.length?\"{key: someKey, \"+f.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(f=0<f.length?\"{\"+f.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,f,o),N[o+s]=!0)}if(o=null,a!==void 0&&(i(a),o=\"\"+a),Y(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){a={};for(var E in r)E!==\"key\"&&(a[E]=r[E])}else a=r;return o&&W(a,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),V(e,o,u,l,c(),a,d,v)}function A(e){typeof e==\"object\"&&e!==null&&e.$$typeof===k&&e._store&&(e._store.validated=1)}var p=D(),k=Symbol.for(\"react.transitional.element\"),z=Symbol.for(\"react.portal\"),y=Symbol.for(\"react.fragment\"),G=Symbol.for(\"react.strict_mode\"),K=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var X=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),J=Symbol.for(\"react.memo\"),T=Symbol.for(\"react.lazy\"),Q=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),R=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,S=Object.prototype.hasOwnProperty,re=Array.isArray,O=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var P,j={},te=p[\"react-stack-bottom-frame\"].bind(p,w)(),ne=O(m(w)),N={};h.Fragment=y,h.jsxDEV=function(e,r,a,s,l,u){var d=1e4>R.recentlyCreatedOwnerStacks++;return $(e,r,a,s,l,u,d?Error(\"react-stack-top-frame\"):te,d?O(m(e)):ne)}})()});var L=_((_e,M)=>{\"use strict\";M.exports=I()});var ge={};ue(ge,{default:()=>pe,frontmatter:()=>be});var b=de(L()),be={title:\"Enterprise \\u2013 UseMe Labs\",description:\"Enterprise-grade deployment of UseMe Labs with integrations, SSO, governance and dedicated SLAs.\",layout:\"page\",hero:{eyebrow:\"Enterprise\",headline:\"Lithuanian AI with enterprise guarantees\",subheadline:\"Integrations, SSO, governance and SLAs you can audit. Agents that never fine-tune on your data.\",primaryCta:{label:\"Request proposal\",href:\"/pricing\"},secondaryCta:{label:\"Review security posture\",href:\"/privacy\"}},sections:[{id:\"integrations\",eyebrow:\"Integrations\",heading:\"Plug UseMe Labs into your stack\",body:`Connect Microsoft 365, Google Workspace, Atlassian, Slack, Teams, SharePoint, Salesforce and private APIs. Every call is logged and signed.\n`,bullets:[\"Private API proxies with IP allowlists and rate limits\",\"SCIM user sync and Just-In-Time provisioning\",\"Webhooks back to ERP, BI and event streams\"]},{id:\"identity\",eyebrow:\"Identity\",heading:\"Unified sign-on and granular access\",body:`Support for SAML 2.0, OpenID Connect, Azure AD, Okta and Smart-ID verification. Agent permissions are separated from user privileges.\n`,bullets:[\"Role-based scopes (knowledge, execution, supervision)\",\"Step-up MFA for sensitive workflow approvals\",\"Delegated partner access with full audit trail\"]},{id:\"privacy\",eyebrow:\"Privacy\",heading:\"Data remains in your chosen jurisdiction\",body:`Models are never trained on your data. Deploy within your VPC, via Vercel or on-premise Kubernetes. All files are encrypted at rest and in transit.\n`,bullets:[\"Token masking and data classifiers\",\"Key management via HSM or Azure Key Vault\",\"RAG source manager with version history\"]},{id:\"governance\",eyebrow:\"Governance\",heading:\"Control center and auditor-ready logs\",body:`Admins see every agent step, accessed datasets, selected models and delivered answers. Define policy blocks that agents execute automatically.\n`,bullets:[\"Policy engine with conditional action blocks\",\"Zero-trust headers and event forwarding\",\"Custom SLAs and 24/7 support availability\"]},{id:\"delivery\",heading:\"Delivery timeline\",body:`Week one: process and data discovery. Week two: agent orchestration and integrations. Week three: production pilot with enablement and success metrics.\n`}]};function U(t){return(0,b.jsxDEV)(b.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\enterprise\\\\_mdx_bundler_entry_point-9dc3f9fa-0243-4cb0-be09-c0b1ca3d9ee8.mdx\",lineNumber:1,columnNumber:1},this)}function me(t={}){let{wrapper:n}=t.components||{};return n?(0,b.jsxDEV)(n,Object.assign({},t,{children:(0,b.jsxDEV)(U,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\enterprise\\\\_mdx_bundler_entry_point-9dc3f9fa-0243-4cb0-be09-c0b1ca3d9ee8.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\enterprise\\\\_mdx_bundler_entry_point-9dc3f9fa-0243-4cb0-be09-c0b1ca3d9ee8.mdx\"},this):U(t)}var pe=me;return fe(ge);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/enterprise/en.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/enterprise/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "pages/enterprise",
+    "contentType": "mdx",
+    "flattenedPath": "pages/enterprise/en"
+  },
+  "type": "Page",
+  "locale": "en",
+  "slugSegments": [
+    "enterprise"
+  ],
+  "slug": "enterprise",
+  "route": "/en/enterprise",
+  "isDefaultLocale": false
+}

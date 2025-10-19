@@ -1,0 +1,72 @@
+{
+  "title": "Privacy Policy – UseMe Labs",
+  "description": "How UseMe Labs processes, stores and protects personal data and service logs.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Privacy",
+    "headline": "Privacy Policy",
+    "subheadline": "We explain how we handle your team's data and which rights you can exercise."
+  },
+  "sections": [
+    {
+      "id": "collection",
+      "heading": "Data we collect",
+      "body": "We process only what is required to deliver the service: billing information, authentication data, operational logs and the content you upload to the platform.\n",
+      "bullets": [
+        "Account details (name, email, company information)",
+        "Uploaded documents, messages and agent instructions",
+        "Technical logs (IP, user agent, timestamps) retained for 90 days"
+      ]
+    },
+    {
+      "id": "legal",
+      "heading": "Legal basis",
+      "body": "We process data under contract performance, legal obligations and legitimate interest. Additional analytics or communications rely on explicit consent when required.\n"
+    },
+    {
+      "id": "storage",
+      "heading": "Storage location and duration",
+      "body": "Data is hosted in EU data centres (Germany and Poland). Private deployment is available. Documents are removed within 30 days after account closure; logs after 90 days.\n"
+    },
+    {
+      "id": "sharing",
+      "heading": "Sharing with third parties",
+      "body": "We share data only with infrastructure providers (cloud hosting, email services) bound by data processing agreements and GDPR commitments.\n"
+    },
+    {
+      "id": "rights",
+      "heading": "Your rights",
+      "body": "You can request access, rectification, restriction or deletion. Email privacy@usemelabs.com and we will respond within 30 days. Complaints can be filed with your local DPA.\n"
+    },
+    {
+      "id": "security",
+      "heading": "Security measures",
+      "body": "We enforce encryption, role-based access, logging and multi-factor authentication. Regular penetration tests and an incident response plan are in place.\n"
+    },
+    {
+      "id": "changes",
+      "heading": "Policy updates",
+      "body": "We notify you by email at least 30 days before significant changes. The latest version is always available on this page.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var g=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var ce=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var _=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),ue=(t,n)=>{for(var i in n)g(t,i,{get:n[i],enumerable:!0})},x=(t,n,i,b)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of ie(n))!le.call(t,c)&&c!==i&&g(t,c,{get:()=>n[c],enumerable:!(b=se(n,c))||b.enumerable});return t};var de=(t,n,i)=>(i=t!=null?oe(ce(t)):{},x(n||!t||!t.__esModule?g(i,\"default\",{value:t,enumerable:!0}):i,t)),fe=t=>x(g({},\"__esModule\",{value:!0}),t);var D=_((he,C)=>{C.exports=React});var U=_(v=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case y:return\"Fragment\";case G:return\"Profiler\";case z:return\"StrictMode\";case B:return\"Suspense\";case Z:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case q:return\"Portal\";case K:return(e.displayName||\"Context\")+\".Provider\";case X:return(e._context.displayName||\"Context\")+\".Consumer\";case H:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Q:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case P:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function n(e){return\"\"+e}function i(e){try{n(e);var r=!1}catch{r=!0}if(r){r=console;var a=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return a.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),n(e)}}function b(e){if(e===y)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===P)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function c(){var e=A.A;return e===null?null:e.getOwner()}function T(){return Error(\"react-stack-top-frame\")}function W(e){if(O.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function I(e,r){function a(){S||(S=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}a.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:a,configurable:!0})}function F(){var e=t(this.type);return j[e]||(j[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function $(e,r,a,s,l,u,d,h){return a=u.ref,e={$$typeof:R,type:e,key:r,props:u,_owner:l},(a!==void 0?a:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:F}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:h}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function V(e,r,a,s,l,u,d,h){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)w(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else w(o);if(O.call(r,\"key\")){o=t(e);var f=Object.keys(r).filter(function(ae){return ae!==\"key\"});s=0<f.length?\"{key: someKey, \"+f.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(f=0<f.length?\"{\"+f.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,f,o),N[o+s]=!0)}if(o=null,a!==void 0&&(i(a),o=\"\"+a),W(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){a={};for(var E in r)E!==\"key\"&&(a[E]=r[E])}else a=r;return o&&I(a,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),$(e,o,u,l,c(),a,d,h)}function w(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var p=D(),R=Symbol.for(\"react.transitional.element\"),q=Symbol.for(\"react.portal\"),y=Symbol.for(\"react.fragment\"),z=Symbol.for(\"react.strict_mode\"),G=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var X=Symbol.for(\"react.consumer\"),K=Symbol.for(\"react.context\"),H=Symbol.for(\"react.forward_ref\"),B=Symbol.for(\"react.suspense\"),Z=Symbol.for(\"react.suspense_list\"),Q=Symbol.for(\"react.memo\"),P=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),A=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,O=Object.prototype.hasOwnProperty,re=Array.isArray,k=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var S,j={},te=p[\"react-stack-bottom-frame\"].bind(p,T)(),ne=k(b(T)),N={};v.Fragment=y,v.jsxDEV=function(e,r,a,s,l,u){var d=1e4>A.recentlyCreatedOwnerStacks++;return V(e,r,a,s,l,u,d?Error(\"react-stack-top-frame\"):te,d?k(b(e)):ne)}})()});var L=_((_e,Y)=>{\"use strict\";Y.exports=U()});var ge={};ue(ge,{default:()=>pe,frontmatter:()=>me});var m=de(L()),me={title:\"Privacy Policy \\u2013 UseMe Labs\",description:\"How UseMe Labs processes, stores and protects personal data and service logs.\",layout:\"page\",hero:{eyebrow:\"Privacy\",headline:\"Privacy Policy\",subheadline:\"We explain how we handle your team's data and which rights you can exercise.\"},sections:[{id:\"collection\",heading:\"Data we collect\",body:`We process only what is required to deliver the service: billing information, authentication data, operational logs and the content you upload to the platform.\n`,bullets:[\"Account details (name, email, company information)\",\"Uploaded documents, messages and agent instructions\",\"Technical logs (IP, user agent, timestamps) retained for 90 days\"]},{id:\"legal\",heading:\"Legal basis\",body:`We process data under contract performance, legal obligations and legitimate interest. Additional analytics or communications rely on explicit consent when required.\n`},{id:\"storage\",heading:\"Storage location and duration\",body:`Data is hosted in EU data centres (Germany and Poland). Private deployment is available. Documents are removed within 30 days after account closure; logs after 90 days.\n`},{id:\"sharing\",heading:\"Sharing with third parties\",body:`We share data only with infrastructure providers (cloud hosting, email services) bound by data processing agreements and GDPR commitments.\n`},{id:\"rights\",heading:\"Your rights\",body:`You can request access, rectification, restriction or deletion. Email privacy@usemelabs.com and we will respond within 30 days. Complaints can be filed with your local DPA.\n`},{id:\"security\",heading:\"Security measures\",body:`We enforce encryption, role-based access, logging and multi-factor authentication. Regular penetration tests and an incident response plan are in place.\n`},{id:\"changes\",heading:\"Policy updates\",body:`We notify you by email at least 30 days before significant changes. The latest version is always available on this page.\n`}]};function M(t){return(0,m.jsxDEV)(m.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\privacy\\\\_mdx_bundler_entry_point-92ffe3bc-2148-4084-b7c3-2863f838c85c.mdx\",lineNumber:1,columnNumber:1},this)}function be(t={}){let{wrapper:n}=t.components||{};return n?(0,m.jsxDEV)(n,Object.assign({},t,{children:(0,m.jsxDEV)(M,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\privacy\\\\_mdx_bundler_entry_point-92ffe3bc-2148-4084-b7c3-2863f838c85c.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\privacy\\\\_mdx_bundler_entry_point-92ffe3bc-2148-4084-b7c3-2863f838c85c.mdx\"},this):M(t)}var pe=be;return fe(ge);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/privacy/en.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/privacy/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "pages/privacy",
+    "contentType": "mdx",
+    "flattenedPath": "pages/privacy/en"
+  },
+  "type": "Page",
+  "locale": "en",
+  "slugSegments": [
+    "privacy"
+  ],
+  "slug": "privacy",
+  "route": "/en/privacy",
+  "isDefaultLocale": false
+}

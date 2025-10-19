@@ -1,0 +1,104 @@
+{
+  "title": "Pricing – UseMe Labs",
+  "description": "Transparent pricing in EUR with monthly terms, VAT invoicing and self-serve cancellation.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Pricing",
+    "headline": "Plans that scale with your team",
+    "subheadline": "Every plan includes Lithuanian-tuned models, audit logs and support. Contracts stay flexible."
+  },
+  "sections": [
+    {
+      "id": "plans",
+      "heading": "Plans and pricing",
+      "cards": [
+        {
+          "eyebrow": "Start",
+          "title": "Starter",
+          "price": "€49 / user / month",
+          "description": "Perfect for small teams accelerating document automation and knowledge Q&A.",
+          "features": [
+            "10 workflow runs with reusable agents",
+            "500 documents processed monthly",
+            "Business-hours email support"
+          ],
+          "cta": {
+            "label": "Get started",
+            "href": "/trial"
+          }
+        },
+        {
+          "eyebrow": "Growth",
+          "title": "Growth",
+          "price": "€89 / user / month",
+          "description": "For scaling teams that need integrations, advanced workflows and detailed audit trails.",
+          "features": [
+            "Unlimited workflows and agent versions",
+            "Connectors for CRM, BI and ticketing systems",
+            "SLA: <4h response, Lithuanian-speaking specialist"
+          ],
+          "cta": {
+            "label": "Request quote",
+            "href": "/trial"
+          }
+        },
+        {
+          "eyebrow": "Enterprise",
+          "title": "Enterprise",
+          "price": "From €149 / user / month",
+          "description": "For large organisations requiring SSO, hybrid deployment and a dedicated success team.",
+          "features": [
+            "Private VPC or on-premise deployment",
+            "24/7 support and assigned Customer Success",
+            "Contracted SLAs and incident management"
+          ],
+          "cta": {
+            "label": "Talk to sales",
+            "href": "mailto:hello@usemelabs.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "eyebrow": "Billing",
+      "heading": "How billing works",
+      "body": "Prices exclude VAT. We issue Lithuanian VAT invoices with customer-specific IDs. Billing is monthly and you can cancel any time.\n",
+      "bullets": [
+        "Monthly or annual invoicing options",
+        "Public sector and education discounts",
+        "Bank transfer or card payments supported"
+      ]
+    },
+    {
+      "id": "questions",
+      "eyebrow": "Custom needs",
+      "heading": "Need something bespoke?",
+      "body": "Share your requirements and we will prepare a tailored package with the right compliance, rollout and success services.\n",
+      "cta": {
+        "label": "Book a call",
+        "href": "mailto:hello@usemelabs.com"
+      }
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var g=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var ce=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var y=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),ue=(t,n)=>{for(var i in n)g(t,i,{get:n[i],enumerable:!0})},C=(t,n,i,b)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of ie(n))!le.call(t,c)&&c!==i&&g(t,c,{get:()=>n[c],enumerable:!(b=se(n,c))||b.enumerable});return t};var de=(t,n,i)=>(i=t!=null?oe(ce(t)):{},C(n||!t||!t.__esModule?g(i,\"default\",{value:t,enumerable:!0}):i,t)),fe=t=>C(g({},\"__esModule\",{value:!0}),t);var D=y((Ee,x)=>{x.exports=React});var L=y(w=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case h:return\"Fragment\";case G:return\"Profiler\";case B:return\"StrictMode\";case H:return\"Suspense\";case Q:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case q:return\"Portal\";case X:return(e.displayName||\"Context\")+\".Provider\";case z:return(e._context.displayName||\"Context\")+\".Consumer\";case K:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Z:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case R:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function n(e){return\"\"+e}function i(e){try{n(e);var r=!1}catch{r=!0}if(r){r=console;var a=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return a.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),n(e)}}function b(e){if(e===h)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===R)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function c(){var e=A.A;return e===null?null:e.getOwner()}function T(){return Error(\"react-stack-top-frame\")}function F(e){if(S.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function I(e,r){function a(){O||(O=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}a.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:a,configurable:!0})}function V(){var e=t(this.type);return j[e]||(j[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function W(e,r,a,s,l,u,d,E){return a=u.ref,e={$$typeof:k,type:e,key:r,props:u,_owner:l},(a!==void 0?a:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:V}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:E}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function $(e,r,a,s,l,u,d,E){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)v(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else v(o);if(S.call(r,\"key\")){o=t(e);var f=Object.keys(r).filter(function(ae){return ae!==\"key\"});s=0<f.length?\"{key: someKey, \"+f.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(f=0<f.length?\"{\"+f.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,f,o),N[o+s]=!0)}if(o=null,a!==void 0&&(i(a),o=\"\"+a),F(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){a={};for(var _ in r)_!==\"key\"&&(a[_]=r[_])}else a=r;return o&&I(a,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),W(e,o,u,l,c(),a,d,E)}function v(e){typeof e==\"object\"&&e!==null&&e.$$typeof===k&&e._store&&(e._store.validated=1)}var p=D(),k=Symbol.for(\"react.transitional.element\"),q=Symbol.for(\"react.portal\"),h=Symbol.for(\"react.fragment\"),B=Symbol.for(\"react.strict_mode\"),G=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var z=Symbol.for(\"react.consumer\"),X=Symbol.for(\"react.context\"),K=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Q=Symbol.for(\"react.suspense_list\"),Z=Symbol.for(\"react.memo\"),R=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),A=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,S=Object.prototype.hasOwnProperty,re=Array.isArray,P=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var O,j={},te=p[\"react-stack-bottom-frame\"].bind(p,T)(),ne=P(b(T)),N={};w.Fragment=h,w.jsxDEV=function(e,r,a,s,l,u){var d=1e4>A.recentlyCreatedOwnerStacks++;return $(e,r,a,s,l,u,d?Error(\"react-stack-top-frame\"):te,d?P(b(e)):ne)}})()});var M=y((ye,U)=>{\"use strict\";U.exports=L()});var ge={};ue(ge,{default:()=>pe,frontmatter:()=>me});var m=de(M()),me={title:\"Pricing \\u2013 UseMe Labs\",description:\"Transparent pricing in EUR with monthly terms, VAT invoicing and self-serve cancellation.\",layout:\"page\",hero:{eyebrow:\"Pricing\",headline:\"Plans that scale with your team\",subheadline:\"Every plan includes Lithuanian-tuned models, audit logs and support. Contracts stay flexible.\"},sections:[{id:\"plans\",heading:\"Plans and pricing\",cards:[{eyebrow:\"Start\",title:\"Starter\",price:\"\\u20AC49 / user / month\",description:\"Perfect for small teams accelerating document automation and knowledge Q&A.\",features:[\"10 workflow runs with reusable agents\",\"500 documents processed monthly\",\"Business-hours email support\"],cta:{label:\"Get started\",href:\"/trial\"}},{eyebrow:\"Growth\",title:\"Growth\",price:\"\\u20AC89 / user / month\",description:\"For scaling teams that need integrations, advanced workflows and detailed audit trails.\",features:[\"Unlimited workflows and agent versions\",\"Connectors for CRM, BI and ticketing systems\",\"SLA: <4h response, Lithuanian-speaking specialist\"],cta:{label:\"Request quote\",href:\"/trial\"}},{eyebrow:\"Enterprise\",title:\"Enterprise\",price:\"From \\u20AC149 / user / month\",description:\"For large organisations requiring SSO, hybrid deployment and a dedicated success team.\",features:[\"Private VPC or on-premise deployment\",\"24/7 support and assigned Customer Success\",\"Contracted SLAs and incident management\"],cta:{label:\"Talk to sales\",href:\"mailto:hello@usemelabs.com\"}}]},{id:\"billing\",eyebrow:\"Billing\",heading:\"How billing works\",body:`Prices exclude VAT. We issue Lithuanian VAT invoices with customer-specific IDs. Billing is monthly and you can cancel any time.\n`,bullets:[\"Monthly or annual invoicing options\",\"Public sector and education discounts\",\"Bank transfer or card payments supported\"]},{id:\"questions\",eyebrow:\"Custom needs\",heading:\"Need something bespoke?\",body:`Share your requirements and we will prepare a tailored package with the right compliance, rollout and success services.\n`,cta:{label:\"Book a call\",href:\"mailto:hello@usemelabs.com\"}}]};function Y(t){return(0,m.jsxDEV)(m.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\pricing\\\\_mdx_bundler_entry_point-fc52e23b-0caa-4ce9-88f8-ffd0ef2ba20e.mdx\",lineNumber:1,columnNumber:1},this)}function be(t={}){let{wrapper:n}=t.components||{};return n?(0,m.jsxDEV)(n,Object.assign({},t,{children:(0,m.jsxDEV)(Y,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\pricing\\\\_mdx_bundler_entry_point-fc52e23b-0caa-4ce9-88f8-ffd0ef2ba20e.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\pricing\\\\_mdx_bundler_entry_point-fc52e23b-0caa-4ce9-88f8-ffd0ef2ba20e.mdx\"},this):Y(t)}var pe=be;return fe(ge);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/pricing/en.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/pricing/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "pages/pricing",
+    "contentType": "mdx",
+    "flattenedPath": "pages/pricing/en"
+  },
+  "type": "Page",
+  "locale": "en",
+  "slugSegments": [
+    "pricing"
+  ],
+  "slug": "pricing",
+  "route": "/en/pricing",
+  "isDefaultLocale": false
+}

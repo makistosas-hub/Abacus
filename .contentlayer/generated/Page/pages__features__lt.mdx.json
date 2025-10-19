@@ -1,0 +1,123 @@
+{
+  "title": "Funkcijos – UseMe Labs",
+  "description": "Dokumentų AI, duomenų analizė, agentai, darbo eigos, integracijos, RAG ir multimodalinės galimybės vienoje platformoje.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Funkcijos",
+    "headline": "Visi komponentai, reikalingi lietuviškai kalbančiam AI",
+    "subheadline": "Kiekviena funkcija sukurta taip, kad pirmiausia palaikytų lietuvių kalbą, vietos teisę ir jūsų duomenų politiką."
+  },
+  "sections": [
+    {
+      "id": "cards",
+      "heading": "Pagrindinės galimybės",
+      "cards": [
+        {
+          "eyebrow": "Dokumentų AI",
+          "title": "Dokumentų supratimas",
+          "description": "Automatinės sutartčių, pasiūlymų, tyrimų ir ataskaitų santraukos su citatomis ir faktų tikrinimu.",
+          "features": [
+            "PDF, DOCX, XLSX, CSV ir reg. žurnalų palaikymas",
+            "Variants su komentarais ir rekomendacijomis"
+          ]
+        },
+        {
+          "eyebrow": "Duomenų analizė",
+          "title": "Duomenų dialogas",
+          "description": "Natūralūs klausimai virsta SQL ar DAX, o rezultatai pateikiami lentelėmis, grafikais ir tekstinėmis įžvalgomis.",
+          "features": [
+            "Integracijos su Snowflake, BigQuery, PostgreSQL",
+            "Automatinės įžvalgos lietuvių kalba su KPI"
+          ]
+        },
+        {
+          "eyebrow": "Agentai",
+          "title": "Specializuoti agentai",
+          "description": "Configūruokite agentus pagal funkciją: pardavimai, palaikymas, finansai, viešieji pirkimai ar gamyba.",
+          "features": [
+            "Kelių žingsnių planavimas su atgaliniu grįžtamuoju ryšiu",
+            "Žmonių įsikišimo taškai ir patvirtinimai"
+          ]
+        },
+        {
+          "eyebrow": "Darbo eigos",
+          "title": "Vizualus orkestravimas",
+          "description": "Drag-and-drop sąsaja, kuri leidžia sujungti agentus, API užklausas ir žmogaus patvirtinimą.",
+          "features": [
+            "Sąlyginės šakos, SLA ir laiko juostos",
+            "Pranešimai per Teams, Slack ar el. paštą"
+          ]
+        },
+        {
+          "eyebrow": "Integracijos",
+          "title": "Ekosistemos jungtys",
+          "description": "Oficialūs konektoriai su Microsoft 365, Google Workspace, Atlassian, Slack, Notion, SAP ir REST API.",
+          "features": [
+            "Įvykių prenumeratos ir webhook'ai",
+            "Duomenų rašymas su schemų validacija"
+          ]
+        },
+        {
+          "eyebrow": "RAG",
+          "title": "Paieška su šaltinių atsekamumu",
+          "description": "Hybrid-retrieval variklis, optimizuotas lietuviškoms formuluotėms, su citatomis ir šaltinių versijomis.",
+          "features": [
+            "Vektorinės ir leksinės paieškos derinys",
+            "Politikų filtrai ir prieigos kontrolė"
+          ]
+        },
+        {
+          "eyebrow": "Multimodalumas",
+          "title": "Tekstas, balsas, vaizdas",
+          "description": "Apdorokite garso įrašus, nuotraukas ir schemas kartu su tekstu bei duomenų bazėmis.",
+          "features": [
+            "Balso transkripcijos ir veiksmai",
+            "Vaizdų anotacijos ir defektų žymėjimas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sdk",
+      "eyebrow": "Plėtra",
+      "heading": "API ir plėtros komplektas",
+      "body": "REST ir GraphQL API, TypeScript SDK bei webhook'ai leidžia integruoti UseMe Labs į jūsų vidines sistemas arba kurti pasirinktines vartotojo sąsajas.\n",
+      "bullets": [
+        "TypeScript, Python ir C# kliento bibliotekos",
+        "Įvykių srautai per Kafka ar EventBridge",
+        "Saugos testų ir sandbox aplinkos"
+      ]
+    },
+    {
+      "id": "ux",
+      "eyebrow": "Patirtis",
+      "heading": "Ultramodernaus ir žaismingo dizaino principai",
+      "body": "Grūdėtas fonas, organiški „agentų burbulai“, wavy separatoriai ir mikro animacijos su Framer Motion sujungia patikimumą ir žaismę.\n",
+      "bullets": [
+        "Redukcijos režimas ir judesio kontrolė",
+        "Framer Motion springy preset ir lipnios kortelės",
+        "Konfeti tik sėkmės scenarijams, su preferencijų tikrinimu"
+      ]
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var p=Object.defineProperty;var ne=Object.getOwnPropertyDescriptor;var se=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var E=(a,i)=>()=>(i||a((i={exports:{}}).exports,i),i.exports),ce=(a,i)=>{for(var s in i)p(a,s,{get:i[s],enumerable:!0})},D=(a,i,s,b)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let u of se(i))!le.call(a,u)&&u!==s&&p(a,u,{get:()=>i[u],enumerable:!(b=ne(i,u))||b.enumerable});return a};var me=(a,i,s)=>(s=a!=null?oe(ue(a)):{},D(i||!a||!a.__esModule?p(s,\"default\",{value:a,enumerable:!0}):s,a)),fe=a=>D(p({},\"__esModule\",{value:!0}),a);var C=E((ye,x)=>{x.exports=React});var I=E(_=>{\"use strict\";(function(){function a(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case g:return\"Fragment\";case G:return\"Profiler\";case $:return\"StrictMode\";case q:return\"Suspense\";case H:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case X:return\"Portal\";case B:return(e.displayName||\"Context\")+\".Provider\";case K:return(e._context.displayName||\"Context\")+\".Consumer\";case Q:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Z:return r=e.displayName||null,r!==null?r:a(e.type)||\"Memo\";case S:r=e._payload,e=e._init;try{return a(e(r))}catch{}}return null}function i(e){return\"\"+e}function s(e){try{i(e);var r=!1}catch{r=!0}if(r){r=console;var t=r.error,n=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return t.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",n),i(e)}}function b(e){if(e===g)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===S)return\"<...>\";try{var r=a(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=R.A;return e===null?null:e.getOwner()}function j(){return Error(\"react-stack-top-frame\")}function U(e){if(P.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function Y(e,r){function t(){h||(h=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}t.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:t,configurable:!0})}function z(){var e=a(this.type);return O[e]||(O[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function V(e,r,t,n,l,c,m,y){return t=c.ref,e={$$typeof:A,type:e,key:r,props:c,_owner:l},(t!==void 0?t:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:z}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:m}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:y}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function W(e,r,t,n,l,c,m,y){var o=r.children;if(o!==void 0)if(n)if(re(o)){for(n=0;n<o.length;n++)T(o[n]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else T(o);if(P.call(r,\"key\")){o=a(e);var f=Object.keys(r).filter(function(te){return te!==\"key\"});n=0<f.length?\"{key: someKey, \"+f.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+n]||(f=0<f.length?\"{\"+f.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,n,o,f,o),N[o+n]=!0)}if(o=null,t!==void 0&&(s(t),o=\"\"+t),U(r)&&(s(r.key),o=\"\"+r.key),\"key\"in r){t={};for(var v in r)v!==\"key\"&&(t[v]=r[v])}else t=r;return o&&Y(t,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),V(e,o,c,l,u(),t,m,y)}function T(e){typeof e==\"object\"&&e!==null&&e.$$typeof===A&&e._store&&(e._store.validated=1)}var k=C(),A=Symbol.for(\"react.transitional.element\"),X=Symbol.for(\"react.portal\"),g=Symbol.for(\"react.fragment\"),$=Symbol.for(\"react.strict_mode\"),G=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var K=Symbol.for(\"react.consumer\"),B=Symbol.for(\"react.context\"),Q=Symbol.for(\"react.forward_ref\"),q=Symbol.for(\"react.suspense\"),H=Symbol.for(\"react.suspense_list\"),Z=Symbol.for(\"react.memo\"),S=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),R=k.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,P=Object.prototype.hasOwnProperty,re=Array.isArray,w=console.createTask?console.createTask:function(){return null};k={\"react-stack-bottom-frame\":function(e){return e()}};var h,O={},ae=k[\"react-stack-bottom-frame\"].bind(k,j)(),ie=w(b(j)),N={};_.Fragment=g,_.jsxDEV=function(e,r,t,n,l,c){var m=1e4>R.recentlyCreatedOwnerStacks++;return W(e,r,t,n,l,c,m?Error(\"react-stack-top-frame\"):ae,m?w(b(e)):ie)}})()});var M=E((Ee,L)=>{\"use strict\";L.exports=I()});var pe={};ce(pe,{default:()=>ke,frontmatter:()=>de});var d=me(M()),de={title:\"Funkcijos \\u2013 UseMe Labs\",description:\"Dokument\\u0173 AI, duomen\\u0173 analiz\\u0117, agentai, darbo eigos, integracijos, RAG ir multimodalin\\u0117s galimyb\\u0117s vienoje platformoje.\",layout:\"page\",hero:{eyebrow:\"Funkcijos\",headline:\"Visi komponentai, reikalingi lietuvi\\u0161kai kalban\\u010Diam AI\",subheadline:\"Kiekviena funkcija sukurta taip, kad pirmiausia palaikyt\\u0173 lietuvi\\u0173 kalb\\u0105, vietos teis\\u0119 ir j\\u016Bs\\u0173 duomen\\u0173 politik\\u0105.\"},sections:[{id:\"cards\",heading:\"Pagrindin\\u0117s galimyb\\u0117s\",cards:[{eyebrow:\"Dokument\\u0173 AI\",title:\"Dokument\\u0173 supratimas\",description:\"Automatin\\u0117s sutart\\u010Di\\u0173, pasi\\u016Blym\\u0173, tyrim\\u0173 ir ataskait\\u0173 santraukos su citatomis ir fakt\\u0173 tikrinimu.\",features:[\"PDF, DOCX, XLSX, CSV ir reg. \\u017Eurnal\\u0173 palaikymas\",\"Variants su komentarais ir rekomendacijomis\"]},{eyebrow:\"Duomen\\u0173 analiz\\u0117\",title:\"Duomen\\u0173 dialogas\",description:\"Nat\\u016Bral\\u016Bs klausimai virsta SQL ar DAX, o rezultatai pateikiami lentel\\u0117mis, grafikais ir tekstin\\u0117mis \\u012F\\u017Evalgomis.\",features:[\"Integracijos su Snowflake, BigQuery, PostgreSQL\",\"Automatin\\u0117s \\u012F\\u017Evalgos lietuvi\\u0173 kalba su KPI\"]},{eyebrow:\"Agentai\",title:\"Specializuoti agentai\",description:\"Config\\u016Bruokite agentus pagal funkcij\\u0105: pardavimai, palaikymas, finansai, vie\\u0161ieji pirkimai ar gamyba.\",features:[\"Keli\\u0173 \\u017Eingsni\\u0173 planavimas su atgaliniu gr\\u012F\\u017Etamuoju ry\\u0161iu\",\"\\u017Dmoni\\u0173 \\u012Fsiki\\u0161imo ta\\u0161kai ir patvirtinimai\"]},{eyebrow:\"Darbo eigos\",title:\"Vizualus orkestravimas\",description:\"Drag-and-drop s\\u0105saja, kuri leid\\u017Eia sujungti agentus, API u\\u017Eklausas ir \\u017Emogaus patvirtinim\\u0105.\",features:[\"S\\u0105lygin\\u0117s \\u0161akos, SLA ir laiko juostos\",\"Prane\\u0161imai per Teams, Slack ar el. pa\\u0161t\\u0105\"]},{eyebrow:\"Integracijos\",title:\"Ekosistemos jungtys\",description:\"Oficial\\u016Bs konektoriai su Microsoft 365, Google Workspace, Atlassian, Slack, Notion, SAP ir REST API.\",features:[\"\\u012Evyki\\u0173 prenumeratos ir webhook'ai\",\"Duomen\\u0173 ra\\u0161ymas su schem\\u0173 validacija\"]},{eyebrow:\"RAG\",title:\"Paie\\u0161ka su \\u0161altini\\u0173 atsekamumu\",description:\"Hybrid-retrieval variklis, optimizuotas lietuvi\\u0161koms formuluot\\u0117ms, su citatomis ir \\u0161altini\\u0173 versijomis.\",features:[\"Vektorin\\u0117s ir leksin\\u0117s paie\\u0161kos derinys\",\"Politik\\u0173 filtrai ir prieigos kontrol\\u0117\"]},{eyebrow:\"Multimodalumas\",title:\"Tekstas, balsas, vaizdas\",description:\"Apdorokite garso \\u012Fra\\u0161us, nuotraukas ir schemas kartu su tekstu bei duomen\\u0173 baz\\u0117mis.\",features:[\"Balso transkripcijos ir veiksmai\",\"Vaizd\\u0173 anotacijos ir defekt\\u0173 \\u017Eym\\u0117jimas\"]}]},{id:\"sdk\",eyebrow:\"Pl\\u0117tra\",heading:\"API ir pl\\u0117tros komplektas\",body:`REST ir GraphQL API, TypeScript SDK bei webhook'ai leid\\u017Eia integruoti UseMe Labs \\u012F j\\u016Bs\\u0173 vidines sistemas arba kurti pasirinktines vartotojo s\\u0105sajas.\n`,bullets:[\"TypeScript, Python ir C# kliento bibliotekos\",\"\\u012Evyki\\u0173 srautai per Kafka ar EventBridge\",\"Saugos test\\u0173 ir sandbox aplinkos\"]},{id:\"ux\",eyebrow:\"Patirtis\",heading:\"Ultramodernaus ir \\u017Eaismingo dizaino principai\",body:`Gr\\u016Bd\\u0117tas fonas, organi\\u0161ki \\u201Eagent\\u0173 burbulai\\u201C, wavy separatoriai ir mikro animacijos su Framer Motion sujungia patikimum\\u0105 ir \\u017Eaism\\u0119.\n`,bullets:[\"Redukcijos re\\u017Eimas ir judesio kontrol\\u0117\",\"Framer Motion springy preset ir lipnios kortel\\u0117s\",\"Konfeti tik s\\u0117km\\u0117s scenarijams, su preferencij\\u0173 tikrinimu\"]}]};function F(a){return(0,d.jsxDEV)(d.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\features\\\\_mdx_bundler_entry_point-1c211817-9035-4ffb-ba41-9e4b218cbe5a.mdx\",lineNumber:1,columnNumber:1},this)}function be(a={}){let{wrapper:i}=a.components||{};return i?(0,d.jsxDEV)(i,Object.assign({},a,{children:(0,d.jsxDEV)(F,a,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\features\\\\_mdx_bundler_entry_point-1c211817-9035-4ffb-ba41-9e4b218cbe5a.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\features\\\\_mdx_bundler_entry_point-1c211817-9035-4ffb-ba41-9e4b218cbe5a.mdx\"},this):F(a)}var ke=be;return fe(pe);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/features/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/features/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/features",
+    "contentType": "mdx",
+    "flattenedPath": "pages/features/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "features"
+  ],
+  "slug": "features",
+  "route": "/features",
+  "isDefaultLocale": true
+}

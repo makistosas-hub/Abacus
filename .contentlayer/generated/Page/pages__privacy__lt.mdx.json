@@ -1,0 +1,72 @@
+{
+  "title": "Privatumo politika – UseMe Labs",
+  "description": "Kaip UseMe Labs tvarko, saugo ir prižiūri asmens duomenis bei paslaugos žurnalus.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Privatumas",
+    "headline": "Privatumo politika",
+    "subheadline": "Skaidriai aprašome, kaip tvarkome jūsų komandos duomenis ir kokias teises turite."
+  },
+  "sections": [
+    {
+      "id": "rinkimas",
+      "heading": "Kokius duomenis renkame",
+      "body": "Tvarkome tik tuos duomenis, kurie būtini paslaugai teikti: sąskaitų išrašymo duomenis, autentifikavimo informaciją, žurnalus ir turinį, kurį įkeliate į platformą.\n",
+      "bullets": [
+        "Pagrindinė paskyros informacija (vardas, el. paštas, įmonės duomenys)",
+        "Įkelti dokumentai, pranešimai ir agentų instrukcijos",
+        "Techniniai žurnalai (IP, naršyklė, laiko žymos) saugomi 90 dienų"
+      ]
+    },
+    {
+      "id": "pagrindas",
+      "heading": "Teisinis pagrindas",
+      "body": "Duomenis tvarkome sutarties vykdymo, teisinių įsipareigojimų ir teisėto intereso pagrindu. Jei reikia, gauname aiškų sutikimą papildomai analitikai ar komunikacijai.\n"
+    },
+    {
+      "id": "saugojimas",
+      "heading": "Saugojimo vieta ir trukmė",
+      "body": "Duomenys laikomi ES duomenų centruose (Vokietija ir Lenkija). Galite rinktis privatų diegimą. Dokumentai pašalinami per 30 dienų nuo paskyros uždarymo, žurnalai – po 90 dienų.\n"
+    },
+    {
+      "id": "dalinimasis",
+      "heading": "Dalijimasis su trečiosiomis šalimis",
+      "body": "Dalijamės tik su paslaugų teikėjais, kurie padeda palaikyti infrastruktūrą (debesų platformos, el. laiškų paslaugos). Visi tiekėjai pasirašę duomenų tvarkymo sutartis ir laikosi GDPR.\n"
+    },
+    {
+      "id": "teises",
+      "heading": "Jūsų teisės",
+      "body": "Galite prašyti prieigos, taisymo, apribojimo ar ištrynimo. Rašykite privacy@usemelabs.com – atsakysime per 30 dienų. Taip pat galite pateikti skundą Valstybinei duomenų apsaugos inspekcijai.\n"
+    },
+    {
+      "id": "apsauga",
+      "heading": "Saugumo priemonės",
+      "body": "Taikome šifravimą, rolėmis paremtą prieigą, žurnalus ir dvikopį autentifikavimą. Atliekame reguliarų penetracinį testavimą ir turime incidentų reagavimo planą.\n"
+    },
+    {
+      "id": "pakeitimai",
+      "heading": "Politikos pakeitimai",
+      "body": "Apie reikšmingus pakeitimus pranešame el. paštu ne vėliau kaip prieš 30 dienų. Naujausia versija visada prieinama šiame puslapyje.\n"
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var ne=Object.create;var b=Object.defineProperty;var oe=Object.getOwnPropertyDescriptor;var se=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var E=(a,i)=>()=>(i||a((i={exports:{}}).exports,i),i.exports),ce=(a,i)=>{for(var s in i)b(a,s,{get:i[s],enumerable:!0})},x=(a,i,s,p)=>{if(i&&typeof i==\"object\"||typeof i==\"function\")for(let u of se(i))!le.call(a,u)&&u!==s&&b(a,u,{get:()=>i[u],enumerable:!(p=oe(i,u))||p.enumerable});return a};var me=(a,i,s)=>(s=a!=null?ne(ue(a)):{},x(i||!a||!a.__esModule?b(s,\"default\",{value:a,enumerable:!0}):s,a)),de=a=>x(b({},\"__esModule\",{value:!0}),a);var C=E((ve,D)=>{D.exports=React});var U=E(_=>{\"use strict\";(function(){function a(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case g:return\"Fragment\";case X:return\"Profiler\";case z:return\"StrictMode\";case H:return\"Suspense\";case J:return\"SuspenseList\";case Q:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case G:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case K:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Z:return r=e.displayName||null,r!==null?r:a(e.type)||\"Memo\";case h:r=e._payload,e=e._init;try{return a(e(r))}catch{}}return null}function i(e){return\"\"+e}function s(e){try{i(e);var r=!1}catch{r=!0}if(r){r=console;var t=r.error,o=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return t.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",o),i(e)}}function p(e){if(e===g)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===h)return\"<...>\";try{var r=a(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=P.A;return e===null?null:e.getOwner()}function T(){return Error(\"react-stack-top-frame\")}function I(e){if(A.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function F(e,r){function t(){S||(S=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}t.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:t,configurable:!0})}function V(){var e=a(this.type);return w[e]||(w[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function W(e,r,t,o,l,c,m,v){return t=c.ref,e={$$typeof:R,type:e,key:r,props:c,_owner:l},(t!==void 0?t:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:V}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:m}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:v}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function $(e,r,t,o,l,c,m,v){var n=r.children;if(n!==void 0)if(o)if(re(n)){for(o=0;o<n.length;o++)j(n[o]);Object.freeze&&Object.freeze(n)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else j(n);if(A.call(r,\"key\")){n=a(e);var d=Object.keys(r).filter(function(te){return te!==\"key\"});o=0<d.length?\"{key: someKey, \"+d.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[n+o]||(d=0<d.length?\"{\"+d.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,o,n,d,n),N[n+o]=!0)}if(n=null,t!==void 0&&(s(t),n=\"\"+t),I(r)&&(s(r.key),n=\"\"+r.key),\"key\"in r){t={};for(var y in r)y!==\"key\"&&(t[y]=r[y])}else t=r;return n&&F(t,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),W(e,n,c,l,u(),t,m,v)}function j(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var k=C(),R=Symbol.for(\"react.transitional.element\"),G=Symbol.for(\"react.portal\"),g=Symbol.for(\"react.fragment\"),z=Symbol.for(\"react.strict_mode\"),X=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var K=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),J=Symbol.for(\"react.suspense_list\"),Z=Symbol.for(\"react.memo\"),h=Symbol.for(\"react.lazy\"),Q=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),P=k.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,A=Object.prototype.hasOwnProperty,re=Array.isArray,O=console.createTask?console.createTask:function(){return null};k={\"react-stack-bottom-frame\":function(e){return e()}};var S,w={},ae=k[\"react-stack-bottom-frame\"].bind(k,T)(),ie=O(p(T)),N={};_.Fragment=g,_.jsxDEV=function(e,r,t,o,l,c){var m=1e4>P.recentlyCreatedOwnerStacks++;return $(e,r,t,o,l,c,m?Error(\"react-stack-top-frame\"):ae,m?O(p(e)):ie)}})()});var L=E((Ee,Y)=>{\"use strict\";Y.exports=U()});var be={};ce(be,{default:()=>ke,frontmatter:()=>fe});var f=me(L()),fe={title:\"Privatumo politika \\u2013 UseMe Labs\",description:\"Kaip UseMe Labs tvarko, saugo ir pri\\u017Ei\\u016Bri asmens duomenis bei paslaugos \\u017Eurnalus.\",layout:\"page\",hero:{eyebrow:\"Privatumas\",headline:\"Privatumo politika\",subheadline:\"Skaidriai apra\\u0161ome, kaip tvarkome j\\u016Bs\\u0173 komandos duomenis ir kokias teises turite.\"},sections:[{id:\"rinkimas\",heading:\"Kokius duomenis renkame\",body:`Tvarkome tik tuos duomenis, kurie b\\u016Btini paslaugai teikti: s\\u0105skait\\u0173 i\\u0161ra\\u0161ymo duomenis, autentifikavimo informacij\\u0105, \\u017Eurnalus ir turin\\u012F, kur\\u012F \\u012Fkeliate \\u012F platform\\u0105.\n`,bullets:[\"Pagrindin\\u0117 paskyros informacija (vardas, el. pa\\u0161tas, \\u012Fmon\\u0117s duomenys)\",\"\\u012Ekelti dokumentai, prane\\u0161imai ir agent\\u0173 instrukcijos\",\"Techniniai \\u017Eurnalai (IP, nar\\u0161ykl\\u0117, laiko \\u017Eymos) saugomi 90 dien\\u0173\"]},{id:\"pagrindas\",heading:\"Teisinis pagrindas\",body:`Duomenis tvarkome sutarties vykdymo, teisini\\u0173 \\u012Fsipareigojim\\u0173 ir teis\\u0117to intereso pagrindu. Jei reikia, gauname ai\\u0161k\\u0173 sutikim\\u0105 papildomai analitikai ar komunikacijai.\n`},{id:\"saugojimas\",heading:\"Saugojimo vieta ir trukm\\u0117\",body:`Duomenys laikomi ES duomen\\u0173 centruose (Vokietija ir Lenkija). Galite rinktis privat\\u0173 diegim\\u0105. Dokumentai pa\\u0161alinami per 30 dien\\u0173 nuo paskyros u\\u017Edarymo, \\u017Eurnalai \\u2013 po 90 dien\\u0173.\n`},{id:\"dalinimasis\",heading:\"Dalijimasis su tre\\u010Diosiomis \\u0161alimis\",body:`Dalijam\\u0117s tik su paslaug\\u0173 teik\\u0117jais, kurie padeda palaikyti infrastrukt\\u016Br\\u0105 (debes\\u0173 platformos, el. lai\\u0161k\\u0173 paslaugos). Visi tiek\\u0117jai pasira\\u0161\\u0119 duomen\\u0173 tvarkymo sutartis ir laikosi GDPR.\n`},{id:\"teises\",heading:\"J\\u016Bs\\u0173 teis\\u0117s\",body:`Galite pra\\u0161yti prieigos, taisymo, apribojimo ar i\\u0161trynimo. Ra\\u0161ykite privacy@usemelabs.com \\u2013 atsakysime per 30 dien\\u0173. Taip pat galite pateikti skund\\u0105 Valstybinei duomen\\u0173 apsaugos inspekcijai.\n`},{id:\"apsauga\",heading:\"Saugumo priemon\\u0117s\",body:`Taikome \\u0161ifravim\\u0105, rol\\u0117mis paremt\\u0105 prieig\\u0105, \\u017Eurnalus ir dvikop\\u012F autentifikavim\\u0105. Atliekame reguliar\\u0173 penetracin\\u012F testavim\\u0105 ir turime incident\\u0173 reagavimo plan\\u0105.\n`},{id:\"pakeitimai\",heading:\"Politikos pakeitimai\",body:`Apie reik\\u0161mingus pakeitimus prane\\u0161ame el. pa\\u0161tu ne v\\u0117liau kaip prie\\u0161 30 dien\\u0173. Naujausia versija visada prieinama \\u0161iame puslapyje.\n`}]};function M(a){return(0,f.jsxDEV)(f.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\privacy\\\\_mdx_bundler_entry_point-4150ed6e-dccd-4f57-9a39-47d947d390c4.mdx\",lineNumber:1,columnNumber:1},this)}function pe(a={}){let{wrapper:i}=a.components||{};return i?(0,f.jsxDEV)(i,Object.assign({},a,{children:(0,f.jsxDEV)(M,a,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\privacy\\\\_mdx_bundler_entry_point-4150ed6e-dccd-4f57-9a39-47d947d390c4.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\privacy\\\\_mdx_bundler_entry_point-4150ed6e-dccd-4f57-9a39-47d947d390c4.mdx\"},this):M(a)}var ke=pe;return de(be);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/privacy/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/privacy/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/privacy",
+    "contentType": "mdx",
+    "flattenedPath": "pages/privacy/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "privacy"
+  ],
+  "slug": "privacy",
+  "route": "/privacy",
+  "isDefaultLocale": true
+}

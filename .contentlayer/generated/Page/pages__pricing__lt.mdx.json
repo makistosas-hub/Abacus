@@ -1,0 +1,104 @@
+{
+  "title": "Kainodara – UseMe Labs",
+  "description": "Aiški UseMe Labs kainodara eurais su mėnesiniais planais, PVM sąskaitomis ir lankstumu.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Kainodara",
+    "headline": "Lankstūs planai pagal komandos brandą",
+    "subheadline": "Kiekvienas planas apima lietuvių kalbos modelių biblioteką, auditų žurnalus ir palaikymą. Sutartys be ilgo įsipareigojimo."
+  },
+  "sections": [
+    {
+      "id": "plans",
+      "heading": "Planai ir kainos",
+      "cards": [
+        {
+          "eyebrow": "Start",
+          "title": "Startas",
+          "price": "€49 / naudotojui / mėn.",
+          "description": "Idealu mažoms komandoms, norinčioms pagreitinti dokumentų apdorojimą ir Q&A.",
+          "features": [
+            "10 agentų darbo eigos",
+            "500 dokumentų per mėnesį",
+            "El. pašto palaikymas darbo dienomis"
+          ],
+          "cta": {
+            "label": "Pradėti dabar",
+            "href": "/trial"
+          }
+        },
+        {
+          "eyebrow": "Growth",
+          "title": "Augimas",
+          "price": "€89 / naudotojui / mėn.",
+          "description": "Vidutinėms komandoms, kurios nori integracijų, darbo eigų ir smulkmeniško auditavimo.",
+          "features": [
+            "Neribotos darbo eigos ir agentų versijos",
+            "Integracijos su CRM, BI ir bilietų sistemomis",
+            "SLA: <4h reagavimas, specialistas lietuvių kalba"
+          ],
+          "cta": {
+            "label": "Paprašyti pasiūlymo",
+            "href": "/trial"
+          }
+        },
+        {
+          "eyebrow": "Enterprise",
+          "title": "Enterprise",
+          "price": "Nuo €149 / naudotojui / mėn.",
+          "description": "Didelėms organizacijoms su SSO, hibridiniu diegimu ir dedikuota sėkmės komanda.",
+          "features": [
+            "Privati VPC arba on-premise diegimas",
+            "24/7 palaikymas, dedikuotas Customer Success",
+            "Sutartyje apibrėžti SLA ir incidentų valdymas"
+          ],
+          "cta": {
+            "label": "Susisiekti su pardavimais",
+            "href": "mailto:hello@usemelabs.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "eyebrow": "Sąskaitos",
+      "heading": "Kaip išrašomos sąskaitos",
+      "body": "Kainos pateiktos be PVM. Išrašome lietuviškas PVM sąskaitas faktūras su individualiu kliento kodu. Atsiskaitymas kas mėnesį, nutraukimas bet kada.\n",
+      "bullets": [
+        "Mėnesinės arba metinės sąskaitos",
+        "Nuolaidos viešajam sektoriui ir švietimui",
+        "Galima atsiskaityti bankiniu pavedimu ar kortele"
+      ]
+    },
+    {
+      "id": "faq",
+      "eyebrow": "DUK",
+      "heading": "Dažniausiai užduodami klausimai",
+      "body": "Klausimai dėl individualių sąlygų? Parašykite mums ir paruošime jums tinkantį paketą.\n",
+      "cta": {
+        "label": "Kalbėtis su komanda",
+        "href": "mailto:hello@usemelabs.com"
+      }
+    }
+  ],
+  "body": {
+    "raw": "\r\n",
+    "code": "var Component=(()=>{var ne=Object.create;var k=Object.defineProperty;var oe=Object.getOwnPropertyDescriptor;var se=Object.getOwnPropertyNames;var ue=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var v=(a,t)=>()=>(t||a((t={exports:{}}).exports,t),t.exports),ce=(a,t)=>{for(var s in t)k(a,s,{get:t[s],enumerable:!0})},x=(a,t,s,f)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let u of se(t))!le.call(a,u)&&u!==s&&k(a,u,{get:()=>t[u],enumerable:!(f=oe(t,u))||f.enumerable});return a};var de=(a,t,s)=>(s=a!=null?ne(ue(a)):{},x(t||!a||!a.__esModule?k(s,\"default\",{value:a,enumerable:!0}):s,a)),me=a=>x(k({},\"__esModule\",{value:!0}),a);var D=v((Ee,C)=>{C.exports=React});var M=v(y=>{\"use strict\";(function(){function a(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case g:return\"Fragment\";case G:return\"Profiler\";case z:return\"StrictMode\";case H:return\"Suspense\";case Q:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case $:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case X:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Z:return r=e.displayName||null,r!==null?r:a(e.type)||\"Memo\";case S:r=e._payload,e=e._init;try{return a(e(r))}catch{}}return null}function t(e){return\"\"+e}function s(e){try{t(e);var r=!1}catch{r=!0}if(r){r=console;var i=r.error,o=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return i.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",o),t(e)}}function f(e){if(e===g)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===S)return\"<...>\";try{var r=a(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function u(){var e=j.A;return e===null?null:e.getOwner()}function T(){return Error(\"react-stack-top-frame\")}function Y(e){if(A.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function V(e,r){function i(){w||(w=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}i.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:i,configurable:!0})}function F(){var e=a(this.type);return O[e]||(O[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function K(e,r,i,o,l,c,d,E){return i=c.ref,e={$$typeof:h,type:e,key:r,props:c,_owner:l},(i!==void 0?i:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:F}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:E}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function W(e,r,i,o,l,c,d,E){var n=r.children;if(n!==void 0)if(o)if(re(n)){for(o=0;o<n.length;o++)R(n[o]);Object.freeze&&Object.freeze(n)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else R(n);if(A.call(r,\"key\")){n=a(e);var m=Object.keys(r).filter(function(ie){return ie!==\"key\"});o=0<m.length?\"{key: someKey, \"+m.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[n+o]||(m=0<m.length?\"{\"+m.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,o,n,m,n),N[n+o]=!0)}if(n=null,i!==void 0&&(s(i),n=\"\"+i),Y(r)&&(s(r.key),n=\"\"+r.key),\"key\"in r){i={};for(var _ in r)_!==\"key\"&&(i[_]=r[_])}else i=r;return n&&V(i,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),K(e,n,c,l,u(),i,d,E)}function R(e){typeof e==\"object\"&&e!==null&&e.$$typeof===h&&e._store&&(e._store.validated=1)}var p=D(),h=Symbol.for(\"react.transitional.element\"),$=Symbol.for(\"react.portal\"),g=Symbol.for(\"react.fragment\"),z=Symbol.for(\"react.strict_mode\"),G=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var X=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),H=Symbol.for(\"react.suspense\"),Q=Symbol.for(\"react.suspense_list\"),Z=Symbol.for(\"react.memo\"),S=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),j=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,A=Object.prototype.hasOwnProperty,re=Array.isArray,P=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var w,O={},ae=p[\"react-stack-bottom-frame\"].bind(p,T)(),te=P(f(T)),N={};y.Fragment=g,y.jsxDEV=function(e,r,i,o,l,c){var d=1e4>j.recentlyCreatedOwnerStacks++;return W(e,r,i,o,l,c,d?Error(\"react-stack-top-frame\"):ae,d?P(f(e)):te)}})()});var L=v((ve,I)=>{\"use strict\";I.exports=M()});var ke={};ce(ke,{default:()=>pe,frontmatter:()=>be});var b=de(L()),be={title:\"Kainodara \\u2013 UseMe Labs\",description:\"Ai\\u0161ki UseMe Labs kainodara eurais su m\\u0117nesiniais planais, PVM s\\u0105skaitomis ir lankstumu.\",layout:\"page\",hero:{eyebrow:\"Kainodara\",headline:\"Lankst\\u016Bs planai pagal komandos brand\\u0105\",subheadline:\"Kiekvienas planas apima lietuvi\\u0173 kalbos modeli\\u0173 bibliotek\\u0105, audit\\u0173 \\u017Eurnalus ir palaikym\\u0105. Sutartys be ilgo \\u012Fsipareigojimo.\"},sections:[{id:\"plans\",heading:\"Planai ir kainos\",cards:[{eyebrow:\"Start\",title:\"Startas\",price:\"\\u20AC49 / naudotojui / m\\u0117n.\",description:\"Idealu ma\\u017Eoms komandoms, norin\\u010Dioms pagreitinti dokument\\u0173 apdorojim\\u0105 ir Q&A.\",features:[\"10 agent\\u0173 darbo eigos\",\"500 dokument\\u0173 per m\\u0117nes\\u012F\",\"El. pa\\u0161to palaikymas darbo dienomis\"],cta:{label:\"Prad\\u0117ti dabar\",href:\"/trial\"}},{eyebrow:\"Growth\",title:\"Augimas\",price:\"\\u20AC89 / naudotojui / m\\u0117n.\",description:\"Vidutin\\u0117ms komandoms, kurios nori integracij\\u0173, darbo eig\\u0173 ir smulkmeni\\u0161ko auditavimo.\",features:[\"Neribotos darbo eigos ir agent\\u0173 versijos\",\"Integracijos su CRM, BI ir biliet\\u0173 sistemomis\",\"SLA: <4h reagavimas, specialistas lietuvi\\u0173 kalba\"],cta:{label:\"Papra\\u0161yti pasi\\u016Blymo\",href:\"/trial\"}},{eyebrow:\"Enterprise\",title:\"Enterprise\",price:\"Nuo \\u20AC149 / naudotojui / m\\u0117n.\",description:\"Didel\\u0117ms organizacijoms su SSO, hibridiniu diegimu ir dedikuota s\\u0117km\\u0117s komanda.\",features:[\"Privati VPC arba on-premise diegimas\",\"24/7 palaikymas, dedikuotas Customer Success\",\"Sutartyje apibr\\u0117\\u017Eti SLA ir incident\\u0173 valdymas\"],cta:{label:\"Susisiekti su pardavimais\",href:\"mailto:hello@usemelabs.com\"}}]},{id:\"billing\",eyebrow:\"S\\u0105skaitos\",heading:\"Kaip i\\u0161ra\\u0161omos s\\u0105skaitos\",body:`Kainos pateiktos be PVM. I\\u0161ra\\u0161ome lietuvi\\u0161kas PVM s\\u0105skaitas fakt\\u016Bras su individualiu kliento kodu. Atsiskaitymas kas m\\u0117nes\\u012F, nutraukimas bet kada.\n`,bullets:[\"M\\u0117nesin\\u0117s arba metin\\u0117s s\\u0105skaitos\",\"Nuolaidos vie\\u0161ajam sektoriui ir \\u0161vietimui\",\"Galima atsiskaityti bankiniu pavedimu ar kortele\"]},{id:\"faq\",eyebrow:\"DUK\",heading:\"Da\\u017Eniausiai u\\u017Eduodami klausimai\",body:`Klausimai d\\u0117l individuali\\u0173 s\\u0105lyg\\u0173? Para\\u0161ykite mums ir paruo\\u0161ime jums tinkant\\u012F paket\\u0105.\n`,cta:{label:\"Kalb\\u0117tis su komanda\",href:\"mailto:hello@usemelabs.com\"}}]};function U(a){return(0,b.jsxDEV)(b.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\pricing\\\\_mdx_bundler_entry_point-536b7cd0-507e-4ac0-a13d-24f4d3a3bc56.mdx\",lineNumber:1,columnNumber:1},this)}function fe(a={}){let{wrapper:t}=a.components||{};return t?(0,b.jsxDEV)(t,Object.assign({},a,{children:(0,b.jsxDEV)(U,a,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\pricing\\\\_mdx_bundler_entry_point-536b7cd0-507e-4ac0-a13d-24f4d3a3bc56.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\pricing\\\\_mdx_bundler_entry_point-536b7cd0-507e-4ac0-a13d-24f4d3a3bc56.mdx\"},this):U(a)}var pe=fe;return me(ke);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/pricing/lt.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/pricing/lt.mdx",
+    "sourceFileName": "lt.mdx",
+    "sourceFileDir": "pages/pricing",
+    "contentType": "mdx",
+    "flattenedPath": "pages/pricing/lt"
+  },
+  "type": "Page",
+  "locale": "lt",
+  "slugSegments": [
+    "pricing"
+  ],
+  "slug": "pricing",
+  "route": "/pricing",
+  "isDefaultLocale": true
+}

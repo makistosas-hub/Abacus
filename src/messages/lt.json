@@ -1,0 +1,20 @@
+{
+  "nav": {
+    "home": "Pagrindinis",
+    "teams": "Komandoms",
+    "enterprise": "Verslui",
+    "features": "Funkcijos",
+    "research": "Tyrimai",
+    "pricing": "Kainodara",
+    "faq": "DUK",
+    "blog": "Tinklaraštis",
+    "status": "Būsenos centras",
+    "privacy": "Privatumas",
+    "terms": "Naudojimo sąlygos"
+  },
+  "cta": {
+    "requestTrial": "Prašyti demonstracijos",
+    "contact": "Susisiekti",
+    "newsletter": "Prenumeruoti naujienas"
+  }
+}

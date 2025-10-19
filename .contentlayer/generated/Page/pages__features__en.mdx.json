@@ -1,0 +1,123 @@
+{
+  "title": "Features – UseMe Labs",
+  "description": "Document intelligence, data analysis, agents, workflows, integrations, RAG and multimodal capabilities in one Lithuanian-first platform.",
+  "layout": "page",
+  "hero": {
+    "eyebrow": "Features",
+    "headline": "Everything you need for Lithuanian-native AI",
+    "subheadline": "Each capability is designed to prioritise Lithuanian language quality, local regulation and your data policies."
+  },
+  "sections": [
+    {
+      "id": "cards",
+      "heading": "Core capabilities",
+      "cards": [
+        {
+          "eyebrow": "Document AI",
+          "title": "Document understanding",
+          "description": "Automatic summaries, contract comparisons, research synthesis and audit-ready citations.",
+          "features": [
+            "PDF, DOCX, XLSX, CSV and registry logs",
+            "Redline commentary with recommendations"
+          ]
+        },
+        {
+          "eyebrow": "Data analysis",
+          "title": "Conversational analytics",
+          "description": "Natural language requests become SQL or DAX with tables, charts and written insights.",
+          "features": [
+            "Snowflake, BigQuery, PostgreSQL and Power BI connectors",
+            "Lithuanian narrative briefings with KPI context"
+          ]
+        },
+        {
+          "eyebrow": "Agents",
+          "title": "Specialised agents",
+          "description": "Configure agents for sales, support, finance, public procurement or manufacturing.",
+          "features": [
+            "Multi-step planning with reflection and retries",
+            "Human-in-the-loop checkpoints and approvals"
+          ]
+        },
+        {
+          "eyebrow": "Workflows",
+          "title": "Visual orchestration",
+          "description": "Drag-and-drop canvas to combine agents, API calls and human approvals.",
+          "features": [
+            "Conditional branches, SLAs and time windows",
+            "Notifications via Teams, Slack or email"
+          ]
+        },
+        {
+          "eyebrow": "Integrations",
+          "title": "Ecosystem connectors",
+          "description": "Managed connectors for Microsoft 365, Google Workspace, Atlassian, Slack, Notion, SAP and REST APIs.",
+          "features": [
+            "Event subscriptions and webhooks",
+            "Data writes with schema validation"
+          ]
+        },
+        {
+          "eyebrow": "RAG",
+          "title": "Retrieval with traceability",
+          "description": "Hybrid retrieval tuned for Lithuanian phrasing with citations and source versioning.",
+          "features": [
+            "Combination of vector and lexical search",
+            "Policy filters and access control"
+          ]
+        },
+        {
+          "eyebrow": "Multimodal",
+          "title": "Text, voice and vision",
+          "description": "Process audio recordings, images and schematics alongside text and databases.",
+          "features": [
+            "Voice transcription with instant actions",
+            "Image annotation and defect tagging"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sdk",
+      "eyebrow": "Extensibility",
+      "heading": "API and developer toolkit",
+      "body": "REST and GraphQL APIs, TypeScript SDKs and webhooks let you embed UseMe Labs into internal systems or craft bespoke user interfaces.\n",
+      "bullets": [
+        "TypeScript, Python and C# client libraries",
+        "Event streaming via Kafka or EventBridge",
+        "Security test suites and sandbox environments"
+      ]
+    },
+    {
+      "id": "ux",
+      "eyebrow": "Experience",
+      "heading": "Ultramodern, playful design system",
+      "body": "Grain textures, organic agent bubbles, wavy dividers and Framer Motion micro interactions blend trust and playfulness.\n",
+      "bullets": [
+        "Reduced-motion guard and animation controls",
+        "Springy presets with draggable stickers",
+        "Celebratory confetti gated by user preferences"
+      ]
+    }
+  ],
+  "body": {
+    "raw": "",
+    "code": "var Component=(()=>{var oe=Object.create;var g=Object.defineProperty;var se=Object.getOwnPropertyDescriptor;var ie=Object.getOwnPropertyNames;var ce=Object.getPrototypeOf,le=Object.prototype.hasOwnProperty;var v=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),ue=(t,n)=>{for(var i in n)g(t,i,{get:n[i],enumerable:!0})},j=(t,n,i,m)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let c of ie(n))!le.call(t,c)&&c!==i&&g(t,c,{get:()=>n[c],enumerable:!(m=se(n,c))||m.enumerable});return t};var de=(t,n,i)=>(i=t!=null?oe(ce(t)):{},j(n||!t||!t.__esModule?g(i,\"default\",{value:t,enumerable:!0}):i,t)),fe=t=>j(g({},\"__esModule\",{value:!0}),t);var D=v((Ee,C)=>{C.exports=React});var L=v(_=>{\"use strict\";(function(){function t(e){if(e==null)return null;if(typeof e==\"function\")return e.$$typeof===ee?null:e.displayName||e.name||null;if(typeof e==\"string\")return e;switch(e){case y:return\"Fragment\";case z:return\"Profiler\";case G:return\"StrictMode\";case Q:return\"Suspense\";case H:return\"SuspenseList\";case J:return\"Activity\"}if(typeof e==\"object\")switch(typeof e.tag==\"number\"&&console.error(\"Received an unexpected object in getComponentNameFromType(). This is likely a bug in React. Please file an issue.\"),e.$$typeof){case $:return\"Portal\";case q:return(e.displayName||\"Context\")+\".Provider\";case K:return(e._context.displayName||\"Context\")+\".Consumer\";case B:var r=e.render;return e=e.displayName,e||(e=r.displayName||r.name||\"\",e=e!==\"\"?\"ForwardRef(\"+e+\")\":\"ForwardRef\"),e;case Z:return r=e.displayName||null,r!==null?r:t(e.type)||\"Memo\";case k:r=e._payload,e=e._init;try{return t(e(r))}catch{}}return null}function n(e){return\"\"+e}function i(e){try{n(e);var r=!1}catch{r=!0}if(r){r=console;var a=r.error,s=typeof Symbol==\"function\"&&Symbol.toStringTag&&e[Symbol.toStringTag]||e.constructor.name||\"Object\";return a.call(r,\"The provided key is an unsupported type %s. This value must be coerced to a string before using it here.\",s),n(e)}}function m(e){if(e===y)return\"<>\";if(typeof e==\"object\"&&e!==null&&e.$$typeof===k)return\"<...>\";try{var r=t(e);return r?\"<\"+r+\">\":\"<...>\"}catch{return\"<...>\"}}function c(){var e=S.A;return e===null?null:e.getOwner()}function w(){return Error(\"react-stack-top-frame\")}function F(e){if(A.call(e,\"key\")){var r=Object.getOwnPropertyDescriptor(e,\"key\").get;if(r&&r.isReactWarning)return!1}return e.key!==void 0}function Y(e,r){function a(){O||(O=!0,console.error(\"%s: `key` is not a prop. Trying to access it will result in `undefined` being returned. If you need to access the same value within the child component, you should pass it as a different prop. (https://react.dev/link/special-props)\",r))}a.isReactWarning=!0,Object.defineProperty(e,\"key\",{get:a,configurable:!0})}function V(){var e=t(this.type);return x[e]||(x[e]=!0,console.error(\"Accessing element.ref was removed in React 19. ref is now a regular prop. It will be removed from the JSX Element type in a future release.\")),e=this.props.ref,e!==void 0?e:null}function W(e,r,a,s,l,u,d,E){return a=u.ref,e={$$typeof:R,type:e,key:r,props:u,_owner:l},(a!==void 0?a:null)!==null?Object.defineProperty(e,\"ref\",{enumerable:!1,get:V}):Object.defineProperty(e,\"ref\",{enumerable:!1,value:null}),e._store={},Object.defineProperty(e._store,\"validated\",{configurable:!1,enumerable:!1,writable:!0,value:0}),Object.defineProperty(e,\"_debugInfo\",{configurable:!1,enumerable:!1,writable:!0,value:null}),Object.defineProperty(e,\"_debugStack\",{configurable:!1,enumerable:!1,writable:!0,value:d}),Object.defineProperty(e,\"_debugTask\",{configurable:!1,enumerable:!1,writable:!0,value:E}),Object.freeze&&(Object.freeze(e.props),Object.freeze(e)),e}function X(e,r,a,s,l,u,d,E){var o=r.children;if(o!==void 0)if(s)if(re(o)){for(s=0;s<o.length;s++)T(o[s]);Object.freeze&&Object.freeze(o)}else console.error(\"React.jsx: Static children should always be an array. You are likely explicitly calling React.jsxs or React.jsxDEV. Use the Babel transform instead.\");else T(o);if(A.call(r,\"key\")){o=t(e);var f=Object.keys(r).filter(function(ae){return ae!==\"key\"});s=0<f.length?\"{key: someKey, \"+f.join(\": ..., \")+\": ...}\":\"{key: someKey}\",N[o+s]||(f=0<f.length?\"{\"+f.join(\": ..., \")+\": ...}\":\"{}\",console.error(`A props object containing a \"key\" prop is being spread into JSX:\n  let props = %s;\n  <%s {...props} />\nReact keys must be passed directly to JSX without using spread:\n  let props = %s;\n  <%s key={someKey} {...props} />`,s,o,f,o),N[o+s]=!0)}if(o=null,a!==void 0&&(i(a),o=\"\"+a),F(r)&&(i(r.key),o=\"\"+r.key),\"key\"in r){a={};for(var h in r)h!==\"key\"&&(a[h]=r[h])}else a=r;return o&&Y(a,typeof e==\"function\"?e.displayName||e.name||\"Unknown\":e),W(e,o,u,l,c(),a,d,E)}function T(e){typeof e==\"object\"&&e!==null&&e.$$typeof===R&&e._store&&(e._store.validated=1)}var p=D(),R=Symbol.for(\"react.transitional.element\"),$=Symbol.for(\"react.portal\"),y=Symbol.for(\"react.fragment\"),G=Symbol.for(\"react.strict_mode\"),z=Symbol.for(\"react.profiler\");Symbol.for(\"react.provider\");var K=Symbol.for(\"react.consumer\"),q=Symbol.for(\"react.context\"),B=Symbol.for(\"react.forward_ref\"),Q=Symbol.for(\"react.suspense\"),H=Symbol.for(\"react.suspense_list\"),Z=Symbol.for(\"react.memo\"),k=Symbol.for(\"react.lazy\"),J=Symbol.for(\"react.activity\"),ee=Symbol.for(\"react.client.reference\"),S=p.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE,A=Object.prototype.hasOwnProperty,re=Array.isArray,P=console.createTask?console.createTask:function(){return null};p={\"react-stack-bottom-frame\":function(e){return e()}};var O,x={},te=p[\"react-stack-bottom-frame\"].bind(p,w)(),ne=P(m(w)),N={};_.Fragment=y,_.jsxDEV=function(e,r,a,s,l,u){var d=1e4>S.recentlyCreatedOwnerStacks++;return X(e,r,a,s,l,u,d?Error(\"react-stack-top-frame\"):te,d?P(m(e)):ne)}})()});var M=v((ve,I)=>{\"use strict\";I.exports=L()});var ge={};ue(ge,{default:()=>pe,frontmatter:()=>be});var b=de(M()),be={title:\"Features \\u2013 UseMe Labs\",description:\"Document intelligence, data analysis, agents, workflows, integrations, RAG and multimodal capabilities in one Lithuanian-first platform.\",layout:\"page\",hero:{eyebrow:\"Features\",headline:\"Everything you need for Lithuanian-native AI\",subheadline:\"Each capability is designed to prioritise Lithuanian language quality, local regulation and your data policies.\"},sections:[{id:\"cards\",heading:\"Core capabilities\",cards:[{eyebrow:\"Document AI\",title:\"Document understanding\",description:\"Automatic summaries, contract comparisons, research synthesis and audit-ready citations.\",features:[\"PDF, DOCX, XLSX, CSV and registry logs\",\"Redline commentary with recommendations\"]},{eyebrow:\"Data analysis\",title:\"Conversational analytics\",description:\"Natural language requests become SQL or DAX with tables, charts and written insights.\",features:[\"Snowflake, BigQuery, PostgreSQL and Power BI connectors\",\"Lithuanian narrative briefings with KPI context\"]},{eyebrow:\"Agents\",title:\"Specialised agents\",description:\"Configure agents for sales, support, finance, public procurement or manufacturing.\",features:[\"Multi-step planning with reflection and retries\",\"Human-in-the-loop checkpoints and approvals\"]},{eyebrow:\"Workflows\",title:\"Visual orchestration\",description:\"Drag-and-drop canvas to combine agents, API calls and human approvals.\",features:[\"Conditional branches, SLAs and time windows\",\"Notifications via Teams, Slack or email\"]},{eyebrow:\"Integrations\",title:\"Ecosystem connectors\",description:\"Managed connectors for Microsoft 365, Google Workspace, Atlassian, Slack, Notion, SAP and REST APIs.\",features:[\"Event subscriptions and webhooks\",\"Data writes with schema validation\"]},{eyebrow:\"RAG\",title:\"Retrieval with traceability\",description:\"Hybrid retrieval tuned for Lithuanian phrasing with citations and source versioning.\",features:[\"Combination of vector and lexical search\",\"Policy filters and access control\"]},{eyebrow:\"Multimodal\",title:\"Text, voice and vision\",description:\"Process audio recordings, images and schematics alongside text and databases.\",features:[\"Voice transcription with instant actions\",\"Image annotation and defect tagging\"]}]},{id:\"sdk\",eyebrow:\"Extensibility\",heading:\"API and developer toolkit\",body:`REST and GraphQL APIs, TypeScript SDKs and webhooks let you embed UseMe Labs into internal systems or craft bespoke user interfaces.\n`,bullets:[\"TypeScript, Python and C# client libraries\",\"Event streaming via Kafka or EventBridge\",\"Security test suites and sandbox environments\"]},{id:\"ux\",eyebrow:\"Experience\",heading:\"Ultramodern, playful design system\",body:`Grain textures, organic agent bubbles, wavy dividers and Framer Motion micro interactions blend trust and playfulness.\n`,bullets:[\"Reduced-motion guard and animation controls\",\"Springy presets with draggable stickers\",\"Celebratory confetti gated by user preferences\"]}]};function U(t){return(0,b.jsxDEV)(b.Fragment,{},void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\features\\\\_mdx_bundler_entry_point-66766159-2537-4e02-9251-214e18668d71.mdx\",lineNumber:1,columnNumber:1},this)}function me(t={}){let{wrapper:n}=t.components||{};return n?(0,b.jsxDEV)(n,Object.assign({},t,{children:(0,b.jsxDEV)(U,t,void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\features\\\\_mdx_bundler_entry_point-66766159-2537-4e02-9251-214e18668d71.mdx\"},this)}),void 0,!1,{fileName:\"C:\\\\Users\\\\user\\\\Desktop\\\\Abacus.ai UseMeLabs\\\\usemelabs\\\\content\\\\pages\\\\features\\\\_mdx_bundler_entry_point-66766159-2537-4e02-9251-214e18668d71.mdx\"},this):U(t)}var pe=me;return fe(ge);})();\n/*! Bundled license information:\n\nreact/cjs/react-jsx-dev-runtime.development.js:\n  (**\n   * @license React\n   * react-jsx-dev-runtime.development.js\n   *\n   * Copyright (c) Meta Platforms, Inc. and affiliates.\n   *\n   * This source code is licensed under the MIT license found in the\n   * LICENSE file in the root directory of this source tree.\n   *)\n*/\n;return Component;"
+  },
+  "_id": "pages/features/en.mdx",
+  "_raw": {
+    "sourceFilePath": "pages/features/en.mdx",
+    "sourceFileName": "en.mdx",
+    "sourceFileDir": "pages/features",
+    "contentType": "mdx",
+    "flattenedPath": "pages/features/en"
+  },
+  "type": "Page",
+  "locale": "en",
+  "slugSegments": [
+    "features"
+  ],
+  "slug": "features",
+  "route": "/en/features",
+  "isDefaultLocale": false
+}
